@@ -6,10 +6,6 @@ module.exports = (app) => {
         })
     );
 
-    app.get('/', (req, res) => {
-       res.send("Hi");
-    });
-
     app.get(
         '/auth/google/callback',
         passport.authenticate('google'),
