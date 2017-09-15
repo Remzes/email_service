@@ -6,7 +6,7 @@ import Payments from './Payments';
 class Header extends Component {
     renderContent() {
         console.log("auth", this.props.auth);
-        switch(this.props.auth){
+        switch (this.props.auth) {
             case null:
                 return;
 
@@ -30,20 +30,22 @@ class Header extends Component {
     render() {
         console.log(this.props);
         return (
-            <nav>
-                <div className="nav-wrapper blue-grey">
-                    <Link
-                        to={
-                            this.props.auth ? '/surveys' : '/'
-                        }
-                        className="brand-logo" style={{margin: '0 10px'}}>
-                        Email Service
-                    </Link>
-                    <ul id="nav-mobile" className="right hide-on-med-and-down">
-                        {this.renderContent()}
-                    </ul>
-                </div>
-            </nav>
+            <header>
+                <nav>
+                    <div className="nav-wrapper blue-grey">
+                        <Link
+                            to={
+                                this.props.auth ? '/surveys' : '/'
+                            }
+                            className="brand-logo" style={{margin: '0 10px'}}>
+                            Email Service
+                        </Link>
+                        <ul id="nav-mobile" className="right hide-on-med-and-down">
+                            {this.renderContent()}
+                        </ul>
+                    </div>
+                </nav>
+            </header>
         )
     }
 }

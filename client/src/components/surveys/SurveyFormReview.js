@@ -16,7 +16,7 @@ const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
     });
 
     return (
-        <div>
+        <main>
             <h5>Please, confirm your entries</h5>
             {reviewFields}
             <button
@@ -31,7 +31,7 @@ const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
                 Send Survey
                 <i className="material-icons right">email</i>
             </button>
-        </div>
+        </main>
     )
 };
 
