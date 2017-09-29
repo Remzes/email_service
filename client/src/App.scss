@@ -1,0 +1,25 @@
+@import './components/Header/scss/header';
+@import './components/Landing/scss/langing';
+
+.container {
+  width: 100% !important;
+  max-width: 1000%;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+footer {
+  a {
+    display: inline-block;
+    line-height: 35px;
+  }
+  input {
+    border-bottom: 1px solid #fff !important;
+  }
+}
+

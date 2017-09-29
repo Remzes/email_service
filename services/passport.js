@@ -27,8 +27,13 @@ passport.use(new GoogleStrategy({
         if (existingUser) {
             done(null, existingUser);
         } else {
-            const user = await new User({googleId: profile.id}).save();
+            const user = await new User({
+                googleId: profile.id,
+                fullName: profile.displayName,
+                emailAddress: profile.emails[0].value
+            }).save();
             done(null, user);
         }
+
     })
 );

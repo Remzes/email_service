@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
-import './css/main.css';
+import "../App.css";
 
-import Header from './Header';
-import Landing from './Landing';
+import Header from './Header/Header';
+import Landing from './Landing/Landing';
 import Dashboard from './Dashboard';
 import SurveyNew from './surveys/SurveyNew';
 import Footer from './Footer';

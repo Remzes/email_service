@@ -7,8 +7,9 @@ const surveyTemplate = require('../services/emailTemplates/surveyTemplate');
 const Survey = mongoose.model('surveys');
 
 module.exports = app => {
+
     app.post('/api/surveys/webhooks', (req, res) => {
-        console.log(req.body);
+        console.log(123);
         res.send({});
     });
 
