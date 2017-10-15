@@ -1,0 +1,10 @@
+.footer {
+  background-color: $landing-bgc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  span {
+    line-height: 35px;
+  }
+}

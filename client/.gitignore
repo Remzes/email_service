@@ -6,6 +6,9 @@
 # testing
 /coverage
 
+#ngrok
+/ngrok
+
 # production
 /build
 

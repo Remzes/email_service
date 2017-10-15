@@ -12,19 +12,41 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "babel-polyfill": "^6.26.0",
+    "base64-img": "^1.0.3",
+    "classnames": "^2.2.5",
     "concurrently": "^3.5.0",
+    "font-awesome": "^4.7.0",
+    "image-base64": "^1.0.2",
     "lodash": "^4.17.4",
     "materialize-css": "^0.100.2",
     "react": "^15.6.1",
+    "react-addons-perf": "^15.4.2",
     "react-compose": "^2.0.0",
+    "react-custom-scrollbars": "^4.1.2",
     "react-dom": "^15.6.1",
+    "react-fa": "^4.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-functional": "^2.0.0",
+    "react-google-maps": "^8.4.2",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
+    "react-slick": "^0.15.4",
+    "react-smooth-scrollbar": "^7.2.2",
     "react-stripe-checkout": "^2.6.3",
+    "react-svg": "^2.1.22",
+    "react-swipe": "^5.1.0",
+    "react-typist": "^1.1.1",
+    "recompose": "^0.26.0",
     "redux": "^3.7.2",
     "redux-form": "^6.8.0",
-    "redux-thunk": "^2.2.0"
+    "redux-promise-middleware": "^4.4.1",
+    "redux-thunk": "^2.2.0",
+    "slick-carousel": "^1.8.1",
+    "smooth-scrollbar": "^7.4.1",
+    "swipe-js-iso": "^2.0.4",
+    "typed.js": "^2.0.6"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -34,5 +56,8 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "0.0.3"
   }
 }

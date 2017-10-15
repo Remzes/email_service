@@ -1,0 +1,56 @@
+$landing-bgc: #2a2e2f;
+$non-desktop-var: '(max-width: 993px)';
+$desktop-var: '(min-width: 993px)';
+$desktop-var-plus: '(min-width: 1200px)';
+$btn-color: "#F44336";
+
+//Centralize with flex
+@mixin center_align_flex {
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+//Clearfix mixin
+@mixin clearfix() {
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  display: inline-block;
+}
+
+//Mixing to use media query
+@mixin media_query($media) {
+  @media only screen and #{$media} {
+    @content
+  }
+}
+
+//Extend the third block classes
+//The styles will be almost the same
+@mixin ext_bl_thr($f_name, $deep, $modifier){
+  $className: "";
+  $comp: "";
+
+  //Is the element modifier or child class?
+  @if $modifier == "T"{
+    $comp: "--";
+  } @else if $modifier == "F" {
+    $comp: "__";
+  }
+
+  //The depth of the class
+  @if $deep == 2 {
+    $className: ".blockthree" + $comp + $f_name;
+  } @else if $deep == 3 {
+    $className: ".blockthree__container" + $comp + $f_name;
+  }
+
+  @extend #{$className};
+}

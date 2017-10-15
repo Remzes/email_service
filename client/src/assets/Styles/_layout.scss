@@ -1,0 +1,56 @@
+$non-desktop: '(max-width: 992px)';
+$desktop: '(min-width: 993px)';
+//Mixing to use media query
+@mixin media_query($media) {
+  @media only screen and #{$media} {
+    @content
+  }
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+@mixin clearfix(){
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  display: inline-block;
+}
+
+main {
+  position: relative;
+  margin-top: 100px;
+  flex: 1 0 auto;
+
+  &:after {
+    @include clearfix();
+  }
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  color: #999999;
+}
+
+.title-divider {
+  width: 80px;
+  height: 4px;
+  background-color: #ffe0b2 !important;
+}
+
+.user_select {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}

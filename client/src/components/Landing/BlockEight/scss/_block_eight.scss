@@ -1,0 +1,84 @@
+.blockeight {
+
+  @include media_query($desktop-var){
+    padding-bottom: 50px;
+  }
+
+  .container-map-element {
+    @include media_query($desktop-var){
+      height: 600px;
+    }
+    @include media_query($non-desktop-var){
+      height: 400px;
+    }
+  }
+
+  &--inner {
+
+  }
+
+  &__container {
+    &__contact-info {
+      position: relative;
+      top: 0;
+      @include media_query($desktop-var){
+        height: 200px;
+      }
+      @include media_query($non-desktop-var){
+        height: 100px;
+      }
+
+      &__list {
+        width: 80%;
+        padding: 15px !important;
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        margin-left: -40%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0 0 10px 2px #eee;
+        flex-wrap: wrap;
+
+        &--item {
+          &:first-of-type {
+            order: 1;
+          }
+          &:nth-of-type(2){
+            order: 3;
+            @include media_query($desktop-var){
+              order:2;
+            }
+          }
+          &:last-of-type {
+            order: 2;
+            @include media_query($desktop-var){
+              order: 3;
+            }
+          }
+
+          position: relative;
+          @include media_query($non-desktop-var){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-width: 154px;
+            padding: 10px;
+          }
+
+          span {
+            display: inline-block;
+          }
+
+          p {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+}

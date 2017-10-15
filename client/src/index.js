@@ -1,18 +1,21 @@
-import materializeCSS from 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
-import {createStore, applyMiddleware} from 'redux';
-import reduxThunk from 'redux-thunk';
+import store from './store';
+
+import Perf from 'react-addons-perf';
 
 import App from './components/App';
-import reducers from './reducers';
 
-const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
-
+Perf.start();
 ReactDOM.render(
     <Provider store={store}>
         <App />
     </Provider>
     ,document.getElementById('root')
 );
+setTimeout(() => {
+    Perf.stop();
+    Perf.printWasted();
+}, 2000);

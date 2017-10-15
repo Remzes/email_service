@@ -1,0 +1,28 @@
+.blockseven {
+  background-color: lighten($landing-bgc, 5%);
+
+  @include media_query($non-desktop-var) {
+    padding: 50px 0;
+  }
+
+  @include media_query($desktop-var) {
+    padding: 100px 0 70px;
+  }
+
+  &--inner {
+
+  }
+
+  &__container {
+    @extend .blockfive__container;
+
+    &__header {
+      @extend .blockfive__container__header;
+
+      &__container {
+        @extend .blockfive__container__header__container;
+
+      }
+    }
+  }
+}

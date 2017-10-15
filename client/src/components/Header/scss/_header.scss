@@ -1,0 +1,69 @@
+.header {
+  height: 100px;
+
+  &__navigation {
+    background-color: $landing-bgc;
+    box-shadow: none !important;
+    height: inherit;
+    width: 100%;
+
+    //.button-collapse {
+    //    display: none;
+    //
+    //  @include media_query($non-desktop-var){
+    //    display: inline-block;
+    //  }
+    //}
+
+    &--inner {
+      width: 90%;
+      margin: 0 auto;
+      @include center_align_flex;
+
+    }
+
+    //When the web page is scrolled
+    &.is-scrolled {
+      background-color: #fff;
+
+      .button-collapse {
+        color: #000;
+      }
+    }
+
+    &__logo {
+      position: relative !important;
+      @include center_align_flex;
+      margin-right: auto;
+      font-size: 20px !important;
+
+      &__img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: url("../Images/email.png") center left no-repeat;
+        background-size: 50px 50px;
+        margin-right: 10px;
+      }
+    }
+
+    //Changes for the computer design
+    &.is-comp{
+
+    }
+
+    //Changes for the mobile design
+    .is-mobile {
+      box-shadow: 0 0 0 5px #000;
+    }
+  }
+}
+
+.fixed_navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+  z-index: 1000;
+}

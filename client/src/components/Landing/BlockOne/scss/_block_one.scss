@@ -1,0 +1,123 @@
+
+//Styles for the first block of the landing page
+.block-one {
+  background-color: $landing-bgc;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin-top:100px;
+
+  &__jumbotron {
+
+    &:after {
+      @include clearfix();
+    }
+
+    @include media_query($non-desktop-var) {
+      margin-top: 14vw;
+    }
+
+    @include media_query($desktop-var) {
+      margin-top: 100px;
+    }
+
+    //Welcome text section
+    &__text {
+
+      &__header {
+        margin: 0 !important;
+
+        @include media_query($desktop-var) {
+          font-size: 45px;
+        }
+
+        @include media_query($non-desktop-var) {
+          font-size: 35px;
+        }
+      }
+
+      &__typed {
+        margin: 10px 0;
+
+        //Typist component
+        &--typist {
+          line-height: 20px;
+          font-size: 20px;
+
+          @include media_query($non-desktop-var) {
+            font-size: 16px;
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .btn {
+        font-weight: bold;
+        margin-top:15px;
+        border-radius: 20px;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+
+  }
+
+
+  //Ipad Section
+  &__ipad {
+    position: relative;
+    top: 120px;
+    margin-top: -70px;
+    margin-bottom: 0;
+    width: 100%;
+
+    img {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    &:after {
+      @include clearfix();
+    }
+  }
+}
+
+
+//Cursor styles
+.Cursor {
+  margin-left: 5px;
+  animation: blink-animation 1s infinite;
+  -webkit-animation: blink-animation 1s infinite;
+  transition: opacity ease-in-out .2s;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

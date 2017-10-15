@@ -1,4 +1,5 @@
 const express = require('express');
+const expressStaticGzip = require("express-static-gzip");
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
@@ -7,6 +8,7 @@ const keys = require('./config/keys');
 require('./models/User');
 require('./models/Survey');
 require('./services/passport');
+
 
 mongoose.connect(keys.mongoURI);
 
@@ -26,16 +28,16 @@ require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
 require('./routes/surveyRoutes')(app);
 
-if (process.env.NODE_ENV === 'production') {
+// if (process.env.NODE_ENV === 'production') {
     //Serve main.js and main.css files
     app.use(express.static('client/build'));
 
     //Serve index.html in case of unknown route
     const path = require('path');
     app.get('*', (req, res) => {
-       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
     });
-}
+// }
 
 const PORT = process.env.PORT || 5001;
 app.listen(PORT);

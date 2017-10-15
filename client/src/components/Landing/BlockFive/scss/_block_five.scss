@@ -1,0 +1,124 @@
+//Block Five - component
+.blockfive {
+  background-color: lighten($landing-bgc, 5%);
+
+  @include media_query($non-desktop-var) {
+    padding: 20px 0;
+  }
+
+  @include media_query($desktop-var) {
+    padding: 100px 0 20px;
+  }
+
+  //Component Container
+  &__container {
+    overflow: hidden;
+    text-align: center;
+
+    //Header of the component
+    &__header {
+      width: 100%;
+      margin-bottom: 40px;
+
+      &:after {
+        @include clearfix();
+      }
+
+      &__container {
+        color: #fff;
+        margin: 0 auto;
+
+        @include media_query($desktop-var) {
+          width: 530px;
+        }
+
+        @include media_query($non-desktop-var) {
+          width: 70%;
+        }
+
+        h1 {
+          @include media_query($desktop-var) {
+            font-size: 36px;
+          }
+          @include media_query($non-desktop-var) {
+            font-size: 28px;
+          }
+        }
+
+        p {
+          @include media_query($desktop-var) {
+            font-size: 18px;
+          }
+          @include media_query($non-desktop-var) {
+            font-size: 13.5px;
+          }
+          color: #999999;
+          margin: 10px 0;
+        }
+
+        div {
+          @extend .title-divider;
+          position: absolute;
+          margin-top: 10px;
+          left: 50%;
+          margin-left: -40px;
+        }
+      }
+    }
+
+    //Device
+    &__device {
+      h2 {
+        color: #fff;
+        margin-bottom: 15px;
+        @include media_query($non-desktop-var) {
+          font-size: 18px;
+        }
+
+        @include media_query($desktop-var){
+          font-size: 24px;
+        }
+      }
+
+      ul {
+        background-color: lighten($landing-bgc, 5%);
+
+        @include media_query($non-desktop-var) {
+          height: auto;
+          width: 80%;
+          overflow: hidden;
+        }
+
+        li.tab {
+          @include media_query($non-desktop-var) {
+            height: 32px !important;
+            line-height: 32px !important;
+
+            a {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+
+    //Gallery - slider
+    &__gallery {
+      cursor: move !important;
+
+      //Container of the whole gallery
+      &__container {
+        position: relative;
+
+        //The device in which to display screenshots
+        .mac_monitor {
+          z-index: 1;
+          position: absolute;
+          left: 50%;
+          //To prevent event on this img
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}

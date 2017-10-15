@@ -1,0 +1,140 @@
+
+.blockthree {
+
+  &__icon {
+    @extend .blocktwo__icon;
+    &:hover {
+      animation: none;
+    }
+  }
+
+  &--inner {
+    background-color: $landing-bgc;
+  }
+
+  &__container {
+    padding: 50px 20px 0;
+    min-width: 900px;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+
+    @include media_query($desktop-var) {
+      height: 500px;
+    }
+
+    @include media_query($desktop-var_plus) {
+      height: 600px;
+    }
+
+    @include media_query($non-desktop-var) {
+      padding: 20px 0 0 0;
+      min-width: 0;
+      &:after {
+        @include clearfix();
+      }
+    }
+
+    &:after {
+      @include clearfix();
+    }
+
+    &__divider {
+      @extend .title-divider;
+      margin: 5px 0 20px 0;
+
+      @include media_query($non-desktop-var) {
+        position: relative;
+        left: 50%;
+        margin: 5px 0 20px -40px;
+      }
+    }
+
+    &__text {
+      padding: 20px 20px 0;
+      display: flex;
+      margin-left: 5%;
+      justify-content: center;
+      flex-direction: column;
+
+      @include media_query($desktop-var) {
+        width: 40%;
+      }
+
+      @include media_query($non-desktop-var) {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+      }
+
+      h3 {
+
+        color: #fff;
+        z-index: 2;
+        @include media_query($desktop-var) {
+          font-size: 22px;
+        }
+
+        @include media_query($non-desktop-var) {
+          font-size: 20px;
+        }
+      }
+
+      h2 {
+        color: #999;
+        z-index: 2;
+
+        @include media_query($desktop-var) {
+          font-size: 18px;
+        }
+
+        @include media_query($non-desktop-var) {
+          font-size: 16px;
+        }
+
+        margin: 10px 0 20px;
+      }
+
+      p {
+        z-index: 2;
+        color: #fff;
+        font-size: 15px;
+        padding-right: 30px;
+
+        @include media_query($non-desktop-var) {
+          padding: 20px;
+        }
+      }
+
+    }
+
+    &__image {
+
+      z-index: 0;
+      height: 100%;
+
+      @include media_query($desktop-var) {
+        margin-top: -205px;
+        position: absolute;
+        right: 0;
+        top: 41%;
+        padding-right: 20px;
+      }
+
+      @include media_query($desktop-var_plus) {
+        margin-top: -246px;
+        padding-right: 50px;
+      }
+
+      img {
+        z-index: -1;
+        height: 100%;
+        display: inline-block;
+
+        @include media_query($non-desktop-var) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

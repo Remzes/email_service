@@ -2,70 +2,108 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {withRouter} from 'react-router-dom';
-import Payments from '../Payments';
+import Payments from '../Payment/Payments';
+import {compose} from 'recompose';
+//jQuury to initialize materialize
 import $ from 'jquery';
+//Materialize CSS lib
 import 'materialize-css/dist/js/materialize.min';
+//Classnames lib
+import classNames from 'classnames';
+//Decorator
+import appDesign from '../../decorators/scroll_resize_decorator';
 
+//Header class component
 class Header extends Component {
+
+    //Render the header for landing page
     renderLandingPageHeaderContent() {
+        let link_class_object = classNames({
+            "black-text": this.props.scroll > 0
+        });
+
         return [
-            <li key="1"><a href="#">Home</a></li>,
-            <li key="2"><a href="#">Features</a></li>,
-            <li key="3"><a href="#">Pricing</a></li>,
-            <li key="4"><a href="#">Reviews</a></li>,
-            <li key="5"><a href="#">Contact</a></li>
+            <li key="1"><a href="#" className={link_class_object}>Home</a></li>,
+            <li key="2"><a href="#" className={link_class_object}>Features</a></li>,
+            <li key="3"><a href="#" className={link_class_object}>Pricing</a></li>,
+            <li key="4"><a href="#" className={link_class_object}>Reviews</a></li>,
+            <li key="5"><a href="#" className={link_class_object}>Contact</a></li>
         ];
     };
 
+    //Render the header for app page
     renderAppPageHeaderContent() {
         //To prevent error
         if (this.props.auth) {
             return [
                 <li key="1"><Payments/></li>,
-                <li key="2" style={{margin: '0 10px'}}>
+                <li key="2">
+                    <Link to="/surveys/new"
+                          className="btn red"
+                    >
+                        <i className="material-icons left">add</i>
+                        Add New Survey
+                    </Link>
+                </li>,
+                <li key="3" style={{margin: '0 10px'}}>
                     Credits: {this.props.auth.credits}
                 </li>,
-                <li key="3"><a href="/api/logout">Log out</a></li>
+                <li key="4"><a href="/api/logout">Log out</a></li>
             ];
         } else {
             return <li><a href="/api/login">Login with google</a></li>
         }
     };
 
-    componentDidMount() {
-        $(".button-collapse").sideNav();
-    };
-
     render() {
-        console.log(window.location.pathname);
+
+        $(".button-collapse").sideNav();
+
+        let nav_class_object = classNames({
+            "header__navigation": true,
+            "is-comp": this.props.width >= 994,
+            "is-mobile": this.props.width < 990,
+            "is-scrolled": this.props.scroll > 1
+        });
+        let header_class_object = classNames({
+            "header": true,
+            "fixed_navbar": true
+        });
+        let brand_logo_class_object = classNames({
+            "brand-logo": true,
+            "left": true,
+            "header__navigation__logo": true,
+            "black-text": this.props.scroll > 1
+        });
+
+        let {pathname} = this.props.history.location;
+
         return (
-            <header className="container__header">
-                <nav className="container__header__navigation">
-                    <div className="nav-wrapper blue">
+            <header className={header_class_object}>
+                <nav className={nav_class_object}>
+                    <div className="nav-wrapper header__navigation--inner">
                         <Link
                             to='/'
-                            onClick={() => {
-                                this.props.history.push('/')
-                            }}
-                            className="brand-logo left container__header__navigation__logo" style={{margin: '0 10px'}}>
+                            className={brand_logo_class_object}>
+                            <span className="header__navigation__logo__img"></span>
                             <span>Email Service</span>
                         </Link>
                         <a href="#" data-activates="mobile-demo" className="button-collapse right">
                             <i className="material-icons">menu</i>
                         </a>
                         {/*Render main menu*/}
-                        <ul className="right hide-on-med-and-down container__header_navigation__links--list_comp">
+                        <ul className="right hide-on-med-and-down header_navigation__links--list_comp">
                             {
-                                (window.location.pathname === "/")
+                                (pathname === "/")
                                     ? this.renderLandingPageHeaderContent()
                                     : this.renderAppPageHeaderContent()
                             }
                         </ul>
 
                         {/*{Render sidenav menu}*/}
-                        <ul className="side-nav container__header__navigation__links_list--mobile" id="mobile-demo">
+                        <ul className="side-nav header__navigation__links_list--mobile" id="mobile-demo">
                             {
-                                (window.location.pathname === "/")
+                                (pathname === "/")
                                     ? this.renderLandingPageHeaderContent()
                                     : this.renderAppPageHeaderContent()
                             }
@@ -78,10 +116,14 @@ class Header extends Component {
     }
 }
 
-function mapStateToProps({auth}) {
-    return {
-        auth
-    };
-}
 
-export default withRouter(connect(mapStateToProps)(Header));
+
+const enhance = compose(
+    withRouter,
+    connect(({auth}) => ({auth})),
+    appDesign
+);
+
+export default enhance(Header);
+
+// withRouter(connect(mapStateToProps)(appDesign(Header)));

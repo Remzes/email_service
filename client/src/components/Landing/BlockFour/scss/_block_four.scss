@@ -1,0 +1,54 @@
+.blockfour {
+
+  &__icon {
+    @include ext_bl_thr("icon", 2, "F");
+
+  }
+
+  &--inner {
+    background-color: lighten($landing-bgc, 2%);
+  }
+
+  &__container {
+    @include ext_bl_thr("container", 2, "F");
+
+    &:after {
+      @include clearfix();
+    }
+
+    &__divider {
+      @include ext_bl_thr("divider", 3, "F");
+      @include media_query($desktop-var) {
+        margin-left: auto;
+      }
+    }
+
+    &__text {
+      @include ext_bl_thr("text", 3, "F");
+      margin-left: auto;
+      margin-right: 5%;
+      text-align: right;
+
+      @include media_query($non-desktop-var){
+        text-align: center;
+      }
+
+      p {
+        @include media_query($desktop-var){
+          padding-right: 0;
+          padding-left: 30px;
+        }
+      }
+    }
+
+    &__image {
+      @include ext_bl_thr("image", 3, "F");
+      @include media_query($desktop-var){
+        left: 0;
+        right: auto;
+        padding-right: 0;
+        padding-left: 50px;
+      }
+    }
+  }
+}
