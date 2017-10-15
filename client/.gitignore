@@ -9,6 +9,10 @@
 #ngrok
 /ngrok
 
+#keys
+/viktor
+/viktor.pub
+
 # production
 /build
 
