@@ -57,9 +57,9 @@ class Header extends Component {
         }
     };
 
-    componentWillReceiveProps(nextProps){
-        findDOMNode(this.refs.app_header).style.height = (nextProps.scroll > this.props.scroll) ? "54px" : "100px";
-    }
+    // componentWillReceiveProps(nextProps){
+    //     findDOMNode(this.refs.app_header).style.height = (nextProps.scroll > this.props.scroll) ? "54px" : "100px";
+    // }
 
     render() {
 

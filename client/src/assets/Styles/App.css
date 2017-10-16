@@ -34,7 +34,7 @@ p {
   -webkit-user-select: none; }
 
 .header {
-  height: 100px; }
+  height: 70px; }
   .header__navigation {
     background-color: #fff;
     height: inherit;

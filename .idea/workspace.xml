@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ffdd3c7-77cf-4cbb-8358-e9408e4727a5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_slider.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/Images/ipad-air-horizontal.png" afterPath="$PROJECT_DIR$/client/src/assets/Images/ipad-air-horizontal.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/Styles/App.css" afterPath="$PROJECT_DIR$/client/src/assets/Styles/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/Styles/App.scss" afterPath="$PROJECT_DIR$/client/src/assets/Styles/App.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/Styles/_layout.scss" afterPath="$PROJECT_DIR$/client/src/assets/Styles/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFour/scss/_block_four.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFour/scss/_block_four.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockThree/BlockThree.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockThree/BlockThree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockThree/scss/_block_three.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockThree/scss/_block_three.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockTwo/BlockTwo.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockTwo/BlockTwo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockTwo/scss/_block_two.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockTwo/scss/_block_two.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.js" afterPath="$PROJECT_DIR$/client/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Header/Header.js" afterPath="$PROJECT_DIR$/client/src/components/Header/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Header/scss/_header.scss" afterPath="$PROJECT_DIR$/client/src/components/Header/scss/_header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_block_one.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_block_one.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+            <state relative-caret-position="92">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#190#1587#0" expanded="false" />
                 <element signature="e#448#657#0" expanded="false" />
@@ -72,6 +61,29 @@
                 <element signature="e#2068#2184#0" expanded="false" />
                 <element signature="e#2186#2310#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!block;n#renderLandingPageHeaderContent#0;n#Header#0" expanded="false" />
+                <element signature="n#!!block;n#renderAppPageHeaderContent#0;n#Header#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Header/scss/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +192,6 @@
         <option value="$PROJECT_DIR$/client/src/components/Surveys/SurveyList.js" />
         <option value="$PROJECT_DIR$/client/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/client/src/components/Header/scss/_header.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/client/src/components/ScrollToTop.js" />
         <option value="$PROJECT_DIR$/client/public/index.html" />
         <option value="$PROJECT_DIR$/client/src/components/App.js" />
@@ -199,6 +209,8 @@
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockThree/scss/_block_three.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss" />
+        <option value="$PROJECT_DIR$/client/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Header/scss/_header.scss" />
       </list>
     </option>
   </component>
@@ -355,11 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlockOne" />
+              <option name="myItemId" value="Header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,11 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlockOne" />
+              <option name="myItemId" value="Header" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -561,12 +565,12 @@
       <workItem from="1507601779942" duration="602000" />
       <workItem from="1507646953134" duration="48193000" />
       <workItem from="1507867490438" duration="33013000" />
-      <workItem from="1508029195143" duration="39179000" />
+      <workItem from="1508029195143" duration="40357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467931000" />
+    <option name="totallyTimeSpent" value="469109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,30 +852,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Header/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!block;n#renderLandingPageHeaderContent#0;n#Header#0" expanded="false" />
-            <element signature="n#!!block;n#renderAppPageHeaderContent#0;n#Header#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+        <state relative-caret-position="92">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#190#1587#0" expanded="false" />
             <element signature="e#448#657#0" expanded="false" />
@@ -1087,6 +1072,25 @@
             <element signature="e#2068#2184#0" expanded="false" />
             <element signature="e#2186#2310#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#renderLandingPageHeaderContent#0;n#Header#0" expanded="false" />
+            <element signature="n#!!block;n#renderAppPageHeaderContent#0;n#Header#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Header/scss/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
