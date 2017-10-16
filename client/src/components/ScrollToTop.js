@@ -9,7 +9,7 @@ class ScrollToTop extends Component {
                 speed: 1000,
                 minDuration: 250,
                 maxDuration: 1500,
-                element: document.getElementById("container").parentNode,
+                element: window,
                 cancelOnUserAction: true
             };
             animateScrollTo(0, options);

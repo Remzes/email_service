@@ -13,13 +13,13 @@ const Decorator = (OriginalComponent) => {
 
         componentDidMount() {
             window.addEventListener("resize", this.updateDimensions, true);
-            document.getElementById("container").parentNode.addEventListener("scroll", this.state.throttler, true);
+            window.addEventListener("scroll", this.state.throttler, true);
 
         };
 
         componentWillUnmount() {
             window.removeEventListener("resize", this.updateDimensions, true);
-            document.getElementById("container").parentNode.removeEventListener("scroll", this.state.throttler, true);
+            window.removeEventListener("scroll", this.state.throttler, true);
         }
 
         //Update width variable, and re-render the web app
@@ -32,7 +32,7 @@ const Decorator = (OriginalComponent) => {
 
         updateScroll = () => {
             this.setState({
-                scroll: document.getElementById("container").parentNode.scrollTop
+                scroll: document.body.scrollTop || document.documentElement.scrollTop
             });
         };
 

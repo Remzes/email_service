@@ -57,8 +57,8 @@ class Header extends Component {
         }
     };
 
-    // componentWillReceiveProps(nextProps){
-    //     findDOMNode(this.refs.app_header).style.height = (nextProps.scroll > this.props.scroll) ? "54px" : "100px";
+    // componentDidUpdate(){
+    //     console.log(this.props.scroll);
     // }
 
     render() {
@@ -111,7 +111,6 @@ class Header extends Component {
                                     : this.renderAppPageHeaderContent()
                             }
                         </ul>
-
                     </div>
                 </nav>
             </header>
@@ -128,5 +127,3 @@ const enhance = compose(
 );
 
 export default enhance(Header);
-
-// withRouter(connect(mapStateToProps)(appDesign(Header)));
