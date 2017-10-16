@@ -12,6 +12,8 @@ import 'materialize-css/dist/js/materialize.min';
 import classNames from 'classnames';
 //Decorator
 import appDesign from '../../decorators/scroll_resize_decorator';
+//Find element in real DOM
+import {findDOMNode} from 'react-dom';
 
 //Header class component
 class Header extends Component {
@@ -19,7 +21,7 @@ class Header extends Component {
     //Render the header for landing page
     renderLandingPageHeaderContent() {
         let link_class_object = classNames({
-            "black-text": this.props.scroll > 0
+            "black-text": true
         });
 
         return [
@@ -55,14 +57,16 @@ class Header extends Component {
         }
     };
 
+    componentWillReceiveProps(nextProps){
+        findDOMNode(this.refs.app_header).style.height = (nextProps.scroll > this.props.scroll) ? "54px" : "100px";
+    }
+
     render() {
 
         $(".button-collapse").sideNav();
 
         let nav_class_object = classNames({
             "header__navigation": true,
-            "is-comp": this.props.width >= 994,
-            "is-mobile": this.props.width < 990,
             "is-scrolled": this.props.scroll > 1
         });
         let header_class_object = classNames({
@@ -72,21 +76,20 @@ class Header extends Component {
         let brand_logo_class_object = classNames({
             "brand-logo": true,
             "left": true,
-            "header__navigation__logo": true,
-            "black-text": this.props.scroll > 1
+            "header__navigation__logo": true
         });
 
         let {pathname} = this.props.history.location;
 
         return (
-            <header className={header_class_object}>
+            <header className={header_class_object} ref="app_header">
                 <nav className={nav_class_object}>
                     <div className="nav-wrapper header__navigation--inner">
                         <Link
                             to='/'
                             className={brand_logo_class_object}>
                             <span className="header__navigation__logo__img"></span>
-                            <span>Email Service</span>
+                            <span className="black-text">Email Service</span>
                         </Link>
                         <a href="#" data-activates="mobile-demo" className="button-collapse right">
                             <i className="material-icons">menu</i>

@@ -37,10 +37,11 @@ main {
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+  color: $sub-color_black;
 }
 
 p {
-  color: #999999;
+  color: $sub-color_gray;
 }
 
 .title-divider {

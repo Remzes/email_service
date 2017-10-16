@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, applyRouterMiddleware, withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import * as actions from '../actions';
 import "../assets/Styles/App.css";
+import ScrollToTop from './ScrollToTop';
+import "babel-polyfill";
 
 import Header from './Header/Header';
 import Landing from './Landing/index';
@@ -12,30 +14,47 @@ import Footer from './Footer/Footer';
 import {Scrollbars} from 'react-custom-scrollbars';
 
 class App extends Component {
+    constructor(){
+        super();
+        this.state = {
+            loading: true
+        }
+    }
+
     componentDidMount() {
         this.props.fetchUser();
         this.props.loadConfigs();
+        setTimeout(() => {
+            this.setState({loading: false});
+        }, 1500);
     }
 
     render() {
+        const {loading} = this.state;
+        if (loading) {
+            return null;
+        }
+
         return (
-            <Scrollbars
-                ref="scrollbars"
-                className="scroll-content"
-                id="scroll-content"
-            >
-                <div className="container" id="container">
-                    <BrowserRouter>
-                        <div className="content" id="content">
-                            <Header />
-                            <Route exact path="/" component={Landing}/>
-                            <Route exact path="/surveys" component={Dashboard}/>
-                            <Route path="/surveys/new" component={SurveyNew}/>
-                            <Footer />
+            <BrowserRouter>
+                <ScrollToTop>
+                    <Scrollbars
+                        ref="scrollbars"
+                        className="scroll-content"
+                        id="scroll-content"
+                    >
+                        <div className="container" id="container" ref="container">
+                            <div className="content" id="content">
+                                <Header />
+                                <Route exact path="/" component={Landing}/>
+                                <Route exact path="/surveys" component={Dashboard}/>
+                                <Route path="/surveys/new" component={SurveyNew}/>
+                                <Footer />
+                            </div>
                         </div>
-                    </BrowserRouter>
-                </div>
-            </Scrollbars>
+                    </Scrollbars>
+                </ScrollToTop>
+            </BrowserRouter>
         );
     }
 }

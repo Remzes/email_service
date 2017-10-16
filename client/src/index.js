@@ -8,14 +8,14 @@ import Perf from 'react-addons-perf';
 
 import App from './components/App';
 
-Perf.start();
+// Perf.start();
 ReactDOM.render(
     <Provider store={store}>
         <App />
     </Provider>
     ,document.getElementById('root')
 );
-setTimeout(() => {
-    Perf.stop();
-    Perf.printWasted();
-}, 2000);
+// setTimeout(() => {
+//     Perf.stop();
+//     Perf.printWasted();
+// }, 2000);

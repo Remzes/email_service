@@ -31,3 +31,30 @@ footer {
   }
 }
 
+.loader {
+  animation: load8 2.2s linear;
+}
+
+.loader:empty {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-indent: -9999em;
+  background: url("../Images/giphy.gif") center center no-repeat;
+}
+
+@keyframes load8 {
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.5
+  }
+  80% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1;
+  }
+}

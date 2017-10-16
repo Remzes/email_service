@@ -1,11 +1,10 @@
-
 //Styles for the first block of the landing page
 .block-one {
   background-color: $landing-bgc;
-  color: #fff;
+  color: #000;
   overflow: hidden;
   position: relative;
-  margin-top:100px;
+  margin-top: 100px;
 
   &__jumbotron {
 
@@ -52,25 +51,39 @@
         }
       }
 
-      .btn {
-        font-weight: bold;
-        margin-top:15px;
-        border-radius: 20px;
-        &:hover{
-          opacity: 0.7;
+      &__btn {
+        @include media_query($desktop-var){
+          margin-top:35px;
+        }
+        @include media_query($non-desktop-var){
+          margin-top:20px;
+        }
+        .btn {
+          @include media_query($desktop-var){
+            line-height: 45px;
+            height: 45px;
+            padding: 0 30px;
+          }
+          @include media_query($non-desktop-var){
+            line-height: 35px;
+            height: 35px;
+            padding: 0 25px;
+          }
+
+          background-color: $sub-color_red;
+
+          &:hover {
+            opacity: 0.8;
+          }
         }
       }
     }
-
   }
-
 
   //Ipad Section
   &__ipad {
     position: relative;
-    top: 120px;
-    margin-top: -70px;
-    margin-bottom: 0;
+    margin-top: 40px;
     width: 100%;
 
     img {
@@ -84,7 +97,6 @@
     }
   }
 }
-
 
 //Cursor styles
 .Cursor {

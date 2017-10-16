@@ -12,9 +12,7 @@ class BlockOne extends Component {
     render() {
 
         let blockone_class_object = classNames({
-            "block-one": true,
-            "is-comp": this.props.width >= 993,
-            "is-mobile": this.props.width < 993
+            "block-one": true
         });
 
         return (
@@ -36,12 +34,12 @@ class BlockOne extends Component {
                                 (this.props.auth)
                                     ? <Link
                                     to="/surveys"
-                                    className="btn orange waves-effect red-text lighten-4"
+                                    className="btn waves-effect"
                                 >
                                     Start Your Journey!
                                 </Link>
                                     :
-                                    <a className="btn orange waves-effect red-text lighten-4" href="/auth/google">Login
+                                    <a className="btn waves-effect" href="/auth/google">Login
                                         with Google</a>
                             }
                         </section>

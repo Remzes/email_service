@@ -3,39 +3,32 @@
 
   &__navigation {
     background-color: $landing-bgc;
-    box-shadow: none !important;
     height: inherit;
     width: 100%;
-
-    //.button-collapse {
-    //    display: none;
-    //
-    //  @include media_query($non-desktop-var){
-    //    display: inline-block;
-    //  }
-    //}
+    box-shadow: none;
+    transition: all ease-in-out 500ms;
 
     &--inner {
       width: 90%;
       margin: 0 auto;
       @include center_align_flex;
+    }
 
+    .button-collapse {
+      color: #000;
     }
 
     //When the web page is scrolled
     &.is-scrolled {
-      background-color: #fff;
-
-      .button-collapse {
-        color: #000;
-      }
+      box-shadow: 0 0 20px #000;
     }
 
     &__logo {
       position: relative !important;
       @include center_align_flex;
+      color: #000;
       margin-right: auto;
-      font-size: 20px !important;
+      font-size: 1.5vh !important;
 
       &__img {
         display: inline-block;
@@ -45,16 +38,6 @@
         background-size: 50px 50px;
         margin-right: 10px;
       }
-    }
-
-    //Changes for the computer design
-    &.is-comp{
-
-    }
-
-    //Changes for the mobile design
-    .is-mobile {
-      box-shadow: 0 0 0 5px #000;
     }
   }
 }
