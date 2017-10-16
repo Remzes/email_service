@@ -1,5 +1,7 @@
 .footer {
-  background-color: $landing-bgc;
+  background-color: lighten($sub-color_gray, 40%);
+  color: $sub-color_black;
+  //box-shadow: 0 0 10px 2px $sub-color_black;
   padding: 20px;
   display: flex;
   justify-content: space-around;

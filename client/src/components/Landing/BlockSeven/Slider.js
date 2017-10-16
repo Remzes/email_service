@@ -22,67 +22,97 @@ const Slider = () => {
         <section className="blockseven__container__gallery__container">
             <div className="carousel carousel-slider">
                 <a className="carousel-item">
-                    <section className="header">
+                    <section className="carousel-item__container">
+                        <section className="header">
                         <span className="stars">
                         <Icon
                             size="2x"
                             name="star"
-                        />
-                        <Icon
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
                             size="2x"
                             name="star"
                         />
                         </span>
-                        <h2>Great Application!</h2>
+                            <h2>Great Application!</h2>
+                        </section>
+                        <p className="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            A, adipisci alias aliquid amet animi consequatur consequuntur
+                            cum deserunt illo ips
+                        </p>
+                        <small className="copyright">-- Nikolay, Russian Federation</small>
                     </section>
-                    <p className="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        A, adipisci alias aliquid amet animi consequatur consequuntur
-                        cum deserunt illo ips
-                    </p>
-                    <small className="copyright">-- Nikolay, Russian Federation</small>
                 </a>
                 <a className="carousel-item">
-                    <section className="header">
+                    <section className="carousel-item__container">
+                        <section className="header">
                         <span className="stars">
                         <Icon
                             size="2x"
                             name="star"
-                        />
-                        <Icon
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
                             size="2x"
                             name="star"
                         />
                         </span>
-                        <h2>Great Application!</h2>
+                            <h2>Great Application!</h2>
+                        </section>
+                        <p className="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            A, adipisci alias aliquid amet animi consequatur consequuntur
+                            cum deserunt illo ips
+                        </p>
+                        <small className="copyright">-- Nikolay, Russian Federation</small>
                     </section>
-                    <p className="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        A, adipisci alias aliquid amet animi consequatur consequuntur
-                        cum deserunt illo ips
-                    </p>
-                    <small className="copyright">-- Nikolay, Russian Federation</small>
                 </a>
                 <a className="carousel-item">
-                    <section className="header">
+                    <section className="carousel-item__container">
+                        <section className="header">
                         <span className="stars">
-                        <Icon
+                            <Icon
+                                size="2x"
+                                name="star"
+                            /><Icon
                             size="2x"
                             name="star"
-                        />
-                        <Icon
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
+                            size="2x"
+                            name="star"
+                        /><Icon
                             size="2x"
                             name="star"
                         />
                         </span>
-                        <h2>Great Application!</h2>
+                            <h2>Great Application!</h2>
+                        </section>
+                        <p className="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            A, adipisci alias aliquid amet animi consequatur consequuntur
+                            cum deserunt illo ips
+                        </p>
+                        <small className="copyright">-- Nikolay, Russian Federation</small>
                     </section>
-                    <p className="paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        A, adipisci alias aliquid amet animi consequatur consequuntur
-                        cum deserunt illo ips
-                    </p>
-                    <small className="copyright">-- Nikolay, Russian Federation</small>
                 </a>
             </div>
         </section>

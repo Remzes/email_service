@@ -1,36 +1,39 @@
 .blockseven {
   .carousel {
-    @include media_query($desktop-var) {
-      height: 400px !important;
-    }
 
-    @include media_query($non-desktop-var) {
-      height: 300px !important;
+    .fa-star {
+      color: #ffcc00;
     }
 
     .carousel-item {
-      height: 300px !important;
-      padding: 30px;
-      background-color: #fff;
-      display: flex !important;
-      flex-direction: column;
-      align-items: center;
+      background-color: transparent;
+
+      &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: lighten($sub-color_gray, 40%);
+        height: 90%;
+        padding: 30px;
+      }
+
       @include media_query($desktop-var) {
         justify-content: space-around;
         width: 40%;
-        margin-left: 3%;
         top: 30px;
+        padding: 30px;
       }
       @include media_query($non-desktop-var) {
-        justify-content: space-between;
         min-height: 0;
         top: 0;
-        width: 90% !important;
-        margin-left: 5% !important;
+        &__container {
+          margin: 30px;
+        }
       }
 
       .paragraph {
         flex: 1;
+        margin-top: 20px;
       }
     }
   }

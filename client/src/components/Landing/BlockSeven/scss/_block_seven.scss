@@ -18,6 +18,7 @@
 
     &__header {
       @extend .blockfive__container__header;
+      margin-bottom: 0;
 
       &__container {
         @extend .blockfive__container__header__container;
