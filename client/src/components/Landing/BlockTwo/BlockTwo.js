@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import classNames from 'classnames';
 import {Icon} from 'react-fa';
 
 class BlockTwo extends Component {
@@ -21,11 +20,7 @@ class BlockTwo extends Component {
                     <section className="blocktwo__features">
                         <section className="blocktwo__features__container">
                             <section className="blocktwo__features__container__feature center-align">
-                                <Icon
-                                    className="blocktwo__icon"
-                                    name="rocket"
-                                    size="3x"
-                                />
+                                <Icon className="blocktwo__icon" name="rocket" size="3x"/>
                                 <h2>'Furious' Send</h2>
                                 <p>
                                     No complicity!
@@ -35,11 +30,7 @@ class BlockTwo extends Component {
                                 </p>
                             </section>
                             <section className="blocktwo__features__container__feature center-align">
-                                <Icon
-                                    className="blocktwo__icon"
-                                    name="envelope"
-                                    size="3x"
-                                />
+                                <Icon className="blocktwo__icon" name="envelope" size="3x"/>
                                 <h2>Mail Template</h2>
                                 <p>
                                     Our service provides a fabulous
@@ -48,11 +39,7 @@ class BlockTwo extends Component {
                                 </p>
                             </section>
                             <section className="blocktwo__features__container__feature center-align">
-                                <Icon
-                                    className="blocktwo__icon"
-                                    name="users"
-                                    size="3x"
-                                />
+                                <Icon className="blocktwo__icon" name="users" size="3x"/>
                                 <h2>User Friendly</h2>
                                 <p>
                                     Your users will feel comfortable
@@ -74,11 +61,7 @@ class BlockTwo extends Component {
                                 </p>
                             </section>
                             <section className="blocktwo__features__container__feature center-align">
-                                <Icon
-                                    className="blocktwo__icon"
-                                    name="users"
-                                    size="3x"
-                                />
+                                <Icon className="blocktwo__icon" name="users" size="3x"/>
                                 <h2>User Friendly</h2>
                                 <p>
                                     Your users will feel comfortable
@@ -87,11 +70,7 @@ class BlockTwo extends Component {
                                 </p>
                             </section>
                             <section className="blocktwo__features__container__feature center-align">
-                                <Icon
-                                    className="blocktwo__icon"
-                                    name="users"
-                                    size="3x"
-                                />
+                                <Icon className="blocktwo__icon" name="users" size="3x"/>
                                 <h2>User Friendly</h2>
                                 <p>
                                     Your users will feel comfortable

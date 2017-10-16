@@ -1,5 +1,4 @@
 .blocktwo {
-  background-color: lighten($landing-bgc, 2%);
 
   @include media_query($desktop-var) {
     padding: 100px 0 20px;
@@ -10,7 +9,7 @@
   }
 
   &__icon {
-    color: #ffe0b2 !important;
+    color: $sub-color_red !important;
     margin-bottom: 10px;
     transition: all ease-in-out 1s;
 
@@ -45,7 +44,6 @@
     }
 
     &__container {
-      color: #fff;
       margin: 0 auto;
 
       @include media_query($desktop-var) {
@@ -66,13 +64,13 @@
       }
 
       p {
+        color: $sub-color_gray;
         @include media_query($desktop-var) {
           font-size: 18px;
         }
         @include media_query($non-desktop-var) {
           font-size: 13.5px;
         }
-        color: #999999;
         margin: 10px 0;
       }
 
@@ -88,6 +86,8 @@
 
   &__features {
     &__container {
+      position: relative;
+      left: 1px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -115,7 +115,6 @@
         h2 {
 
           font-weight: 900;
-          color: #fff;
 
           @include media_query($desktop-var) {
             font-size: 24px;
@@ -128,7 +127,7 @@
         }
 
         p {
-          color: #999999;
+          color: $sub-color_gray;
           @include media_query($desktop-var) {
             font-size: 15px;
           }

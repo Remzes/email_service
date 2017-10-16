@@ -25,7 +25,6 @@
       }
 
       &__container {
-        color: #fff;
         margin: 0 auto;
 
         @include media_query($desktop-var) {
@@ -52,7 +51,6 @@
           @include media_query($non-desktop-var) {
             font-size: 13.5px;
           }
-          color: #999999;
           margin: 10px 0;
         }
 
@@ -69,7 +67,6 @@
     //Device
     &__device {
       h2 {
-        color: #fff;
         margin-bottom: 15px;
         @include media_query($non-desktop-var) {
           font-size: 18px;

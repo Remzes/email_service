@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import store from './store';
-
 import Perf from 'react-addons-perf';
 
 import App from './components/App';

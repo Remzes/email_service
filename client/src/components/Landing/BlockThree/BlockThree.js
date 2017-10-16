@@ -3,9 +3,6 @@ import {Icon} from 'react-fa';
 
 
 class BlockThree extends Component {
-    componentDidUpdate(){
-        console.log("Updated...");
-    }
 
     shouldComponentUpdate(nextProps){
         return this.props.width !== nextProps.width;
@@ -20,11 +17,7 @@ class BlockThree extends Component {
                 <section className="blockthree--inner">
                     <section className="blockthree__container">
                         <section className="blockthree__container__text">
-                            <Icon
-                                className="blockthree__icon"
-                                name="object-group"
-                                size="3x"
-                            />
+                            <Icon className="blockthree__icon" name="object-group" size="3x"/>
                             <h3>Cross-browser Application</h3>
                             <h2>It will work everywhere!</h2>
                             <div className="blockthree__container__divider"></div>

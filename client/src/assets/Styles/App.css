@@ -26,7 +26,7 @@ p {
 .title-divider, .blocktwo__header__container div, .blockthree__container__divider, .blockfour__container__divider, .blockfive__container__header__container div, .blockseven__container__header__container div {
   width: 80px;
   height: 4px;
-  background-color: #ffe0b2 !important; }
+  background-color: #b30000 !important; }
 
 .user_select {
   -moz-user-select: none;
@@ -144,8 +144,10 @@ p {
   .block-one__ipad {
     position: relative;
     margin-top: 40px;
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 10px; }
     .block-one__ipad img {
+      filter: drop-shadow(0px 0px 5px #222);
       width: 90%;
       max-width: 900px;
       margin: 0 auto; }
@@ -178,109 +180,114 @@ p {
   100% {
     opacity: 0; } }
 
-.blocktwo {
-  background-color: white; }
-  @media only screen and (min-width: 993px) {
-    .blocktwo {
-      padding: 100px 0 20px; } }
-  @media only screen and (max-width: 993px) {
-    .blocktwo {
-      padding: 40px 0 0; } }
-  .blocktwo__icon, .blockthree__icon, .blockfour__icon {
-    color: #ffe0b2 !important;
-    margin-bottom: 10px;
-    transition: all ease-in-out 1s; }
-    .blocktwo__icon:hover, .blockthree__icon:hover, .blockfour__icon:hover {
-      animation: iconPump .5s infinite; }
-  .blocktwo:after {
+@media only screen and (min-width: 993px) {
+  .blocktwo {
+    padding: 100px 0 20px; } }
+
+@media only screen and (max-width: 993px) {
+  .blocktwo {
+    padding: 40px 0 0; } }
+
+.blocktwo__icon, .blockthree__icon, .blockfour__icon {
+  color: #b30000 !important;
+  margin-bottom: 10px;
+  transition: all ease-in-out 1s; }
+  .blocktwo__icon:hover, .blockthree__icon:hover, .blockfour__icon:hover {
+    animation: iconPump .5s infinite; }
+
+.blocktwo:after {
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: "";
+  display: inline-block; }
+
+@media only screen and (min-width: 993px) {
+  .blocktwo--inner {
+    width: 80%;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 993px) {
+  .blocktwo--inner {
+    width: 100%;
+    padding: 0 15px; } }
+
+.blocktwo__header {
+  width: 100%;
+  margin-bottom: 40px; }
+  .blocktwo__header:after {
     visibility: hidden;
     height: 0;
     clear: both;
     content: "";
     display: inline-block; }
+  .blocktwo__header__container {
+    margin: 0 auto; }
+    @media only screen and (min-width: 993px) {
+      .blocktwo__header__container {
+        width: 530px; } }
+    @media only screen and (max-width: 993px) {
+      .blocktwo__header__container {
+        width: 90%; } }
+    @media only screen and (min-width: 993px) {
+      .blocktwo__header__container h1 {
+        font-size: 36px; } }
+    @media only screen and (max-width: 993px) {
+      .blocktwo__header__container h1 {
+        font-size: 28px; } }
+    .blocktwo__header__container p {
+      color: #8c8c8c;
+      margin: 10px 0; }
+      @media only screen and (min-width: 993px) {
+        .blocktwo__header__container p {
+          font-size: 18px; } }
+      @media only screen and (max-width: 993px) {
+        .blocktwo__header__container p {
+          font-size: 13.5px; } }
+    .blocktwo__header__container div {
+      position: absolute;
+      margin-top: 10px;
+      left: 50%;
+      margin-left: -40px; }
+
+.blocktwo__features__container {
+  position: relative;
+  left: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
   @media only screen and (min-width: 993px) {
-    .blocktwo--inner {
-      width: 80%;
-      margin: 0 auto; } }
+    .blocktwo__features__container {
+      flex-direction: row; } }
   @media only screen and (max-width: 993px) {
-    .blocktwo--inner {
-      width: 100%;
-      padding: 0 15px; } }
-  .blocktwo__header {
-    width: 100%;
-    margin-bottom: 40px; }
-    .blocktwo__header:after {
-      visibility: hidden;
-      height: 0;
-      clear: both;
-      content: "";
-      display: inline-block; }
-    .blocktwo__header__container {
-      color: #fff;
-      margin: 0 auto; }
-      @media only screen and (min-width: 993px) {
-        .blocktwo__header__container {
-          width: 530px; } }
-      @media only screen and (max-width: 993px) {
-        .blocktwo__header__container {
-          width: 90%; } }
-      @media only screen and (min-width: 993px) {
-        .blocktwo__header__container h1 {
-          font-size: 36px; } }
-      @media only screen and (max-width: 993px) {
-        .blocktwo__header__container h1 {
-          font-size: 28px; } }
-      .blocktwo__header__container p {
-        color: #999999;
-        margin: 10px 0; }
-        @media only screen and (min-width: 993px) {
-          .blocktwo__header__container p {
-            font-size: 18px; } }
-        @media only screen and (max-width: 993px) {
-          .blocktwo__header__container p {
-            font-size: 13.5px; } }
-      .blocktwo__header__container div {
-        position: absolute;
-        margin-top: 10px;
-        left: 50%;
-        margin-left: -40px; }
-  .blocktwo__features__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    .blocktwo__features__container {
+      align-items: center; } }
+  @media only screen and (min-width: 993px) {
+    .blocktwo__features__container__feature {
+      flex-basis: 27%;
+      margin-bottom: 50px; } }
+  @media only screen and (max-width: 993px) {
+    .blocktwo__features__container__feature {
+      max-width: 230px;
+      padding: 0 20px; } }
+  .blocktwo__features__container__feature h2 {
+    font-weight: 900; }
     @media only screen and (min-width: 993px) {
-      .blocktwo__features__container {
-        flex-direction: row; } }
+      .blocktwo__features__container__feature h2 {
+        font-size: 24px;
+        margin-bottom: 15px; } }
     @media only screen and (max-width: 993px) {
-      .blocktwo__features__container {
-        align-items: center; } }
+      .blocktwo__features__container__feature h2 {
+        font-size: 19px; } }
+  .blocktwo__features__container__feature p {
+    color: #8c8c8c; }
     @media only screen and (min-width: 993px) {
-      .blocktwo__features__container__feature {
-        flex-basis: 27%;
-        margin-bottom: 50px; } }
+      .blocktwo__features__container__feature p {
+        font-size: 15px; } }
     @media only screen and (max-width: 993px) {
-      .blocktwo__features__container__feature {
-        max-width: 230px;
-        padding: 0 20px; } }
-    .blocktwo__features__container__feature h2 {
-      font-weight: 900;
-      color: #fff; }
-      @media only screen and (min-width: 993px) {
-        .blocktwo__features__container__feature h2 {
-          font-size: 24px;
-          margin-bottom: 15px; } }
-      @media only screen and (max-width: 993px) {
-        .blocktwo__features__container__feature h2 {
-          font-size: 19px; } }
-    .blocktwo__features__container__feature p {
-      color: #999999; }
-      @media only screen and (min-width: 993px) {
-        .blocktwo__features__container__feature p {
-          font-size: 15px; } }
-      @media only screen and (max-width: 993px) {
-        .blocktwo__features__container__feature p {
-          font-size: 12px;
-          margin-bottom: 40px; } }
+      .blocktwo__features__container__feature p {
+        font-size: 12px;
+        margin-bottom: 40px; } }
 
 @keyframes iconPump {
   0% {
@@ -354,7 +361,6 @@ p {
         text-align: center;
         margin: auto; } }
     .blockthree__container__text h3, .blockfour__container__text h3 {
-      color: #fff;
       z-index: 2; }
       @media only screen and (min-width: 993px) {
         .blockthree__container__text h3, .blockfour__container__text h3 {
@@ -363,7 +369,7 @@ p {
         .blockthree__container__text h3, .blockfour__container__text h3 {
           font-size: 20px; } }
     .blockthree__container__text h2, .blockfour__container__text h2 {
-      color: #999;
+      color: #8c8c8c;
       z-index: 2;
       margin: 10px 0 20px; }
       @media only screen and (min-width: 993px) {
@@ -373,8 +379,8 @@ p {
         .blockthree__container__text h2, .blockfour__container__text h2 {
           font-size: 16px; } }
     .blockthree__container__text p, .blockfour__container__text p {
+      color: #000;
       z-index: 2;
-      color: #fff;
       font-size: 15px;
       padding-right: 30px; }
       @media only screen and (max-width: 993px) {
@@ -401,9 +407,6 @@ p {
       @media only screen and (max-width: 993px) {
         .blockthree__container__image img, .blockfour__container__image img {
           width: 100%; } }
-
-.blockfour--inner {
-  background-color: white; }
 
 .blockfour__container:after {
   visibility: hidden;
@@ -456,7 +459,6 @@ p {
         content: "";
         display: inline-block; }
       .blockfive__container__header__container, .blockseven__container__header__container {
-        color: #fff;
         margin: 0 auto; }
         @media only screen and (min-width: 993px) {
           .blockfive__container__header__container, .blockseven__container__header__container {
@@ -471,7 +473,6 @@ p {
           .blockfive__container__header__container h1, .blockseven__container__header__container h1 {
             font-size: 28px; } }
         .blockfive__container__header__container p, .blockseven__container__header__container p {
-          color: #999999;
           margin: 10px 0; }
           @media only screen and (min-width: 993px) {
             .blockfive__container__header__container p, .blockseven__container__header__container p {
@@ -485,7 +486,6 @@ p {
           left: 50%;
           margin-left: -40px; }
     .blockfive__container__device h2 {
-      color: #fff;
       margin-bottom: 15px; }
       @media only screen and (max-width: 993px) {
         .blockfive__container__device h2 {

@@ -2,13 +2,8 @@
 
   &__icon {
     @include ext_bl_thr("icon", 2, "F");
-
   }
-
-  &--inner {
-    background-color: lighten($landing-bgc, 2%);
-  }
-
+  
   &__container {
     @include ext_bl_thr("container", 2, "F");
 
