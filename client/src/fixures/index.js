@@ -8,7 +8,7 @@ import SAMSUNG from "../assets/Images/samsung.jpg";
 import MACBOOK_ROTATED from "../assets/Images/mackbook_rotated.png";
 import MACBOOK_FRONT from "../assets/Images/mackbook_pro.png";
 import IPAD_ROTATED from "../assets/Images/ipad_with_keys.png";
-import IPAD_FRONT from "../assets/Images/ipad_with_keys_sraight.png";
+import IPAD_FRONT from "../assets/Images/ipad_with_keys_rotated_2.jpg";
 
 function loadImage(img) {
     return new Promise((resolve, reject) => {
