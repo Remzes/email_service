@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ffdd3c7-77cf-4cbb-8358-e9408e4727a5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/ipad_with_keys_rotated.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/ipad_with_keys_sraight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/iphone_X.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/samsung.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/Images/samsung.png" afterPath="$PROJECT_DIR$/client/src/assets/Images/samsung.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.env.development" afterPath="$PROJECT_DIR$/client/.env.development" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.env.production" afterPath="$PROJECT_DIR$/client/.env.production" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/index.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/fixures/index.js" afterPath="$PROJECT_DIR$/client/src/fixures/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,20 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/fixures/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="259">
+              <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
               <folding>
+                <element signature="e#0#60#0" expanded="true" />
+                <element signature="e#2056#3364#0" expanded="false" />
                 <element signature="e#2213#2752#0" expanded="false" />
                 <element signature="e#2794#3350#0" expanded="false" />
                 <element signature="e#3542#4084#0" expanded="false" />
-                <element signature="e#4126#4673#0" expanded="false" />
-                <element signature="e#4863#5403#0" expanded="false" />
-                <element signature="e#5445#5990#0" expanded="false" />
-                <element signature="e#6173#6712#0" expanded="false" />
-                <element signature="e#6754#7300#0" expanded="false" />
+                <element signature="e#4865#5405#0" expanded="false" />
+                <element signature="e#5447#5992#0" expanded="false" />
+                <element signature="e#6175#6714#0" expanded="false" />
+                <element signature="e#6756#7302#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -84,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-455">
-              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -96,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="598">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -105,8 +93,20 @@
       <file leaf-file-name="BlockFive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="120" lean-forward="false" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+            <state relative-caret-position="483">
+              <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -117,11 +117,10 @@
       <file leaf-file-name="Slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="506">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#240#604#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -433,45 +432,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlockFive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodefull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodefull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlockFive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
+              <option name="myItemId" value="Dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,12 +578,12 @@
       <workItem from="1507601779942" duration="602000" />
       <workItem from="1507646953134" duration="48193000" />
       <workItem from="1507867490438" duration="33013000" />
-      <workItem from="1508029195143" duration="58683000" />
+      <workItem from="1508029195143" duration="59628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="487435000" />
+    <option name="totallyTimeSpent" value="488380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,17 +958,9 @@
         <state relative-caret-position="281">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <marker date="1508132117030" expanded="true" signature="965:1629" ph="&lt;Scrollbars/&gt;" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1039,7 @@
         <state relative-caret-position="276">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
             <marker date="1508132881892" expanded="true" signature="735:928" ph="..." />
           </folding>
         </state>
@@ -1108,49 +1061,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#240#604#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-455">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="120" lean-forward="false" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1159,17 +1083,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/fixures/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="259">
+          <caret line="113" column="34" lean-forward="false" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
           <folding>
+            <element signature="e#0#60#0" expanded="true" />
+            <element signature="e#2056#3364#0" expanded="false" />
             <element signature="e#2213#2752#0" expanded="false" />
             <element signature="e#2794#3350#0" expanded="false" />
             <element signature="e#3542#4084#0" expanded="false" />
-            <element signature="e#4126#4673#0" expanded="false" />
-            <element signature="e#4863#5403#0" expanded="false" />
-            <element signature="e#5445#5990#0" expanded="false" />
-            <element signature="e#6173#6712#0" expanded="false" />
-            <element signature="e#6754#7300#0" expanded="false" />
+            <element signature="e#4865#5405#0" expanded="false" />
+            <element signature="e#5447#5992#0" expanded="false" />
+            <element signature="e#6175#6714#0" expanded="false" />
+            <element signature="e#6756#7302#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

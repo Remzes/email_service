@@ -111,10 +111,10 @@ export async function loadAllImages() {
                 },
                 high_resolution_styles: {
                     carousel_item: {
-                        width: "37vw",
+                        width: "38vw",
                         height: "auto",
                         top: "-4.4vw",
-                        left: ".6vw"
+                        left: "-0.4vw"
                     },
                     carousel: {
                         height: "38vw",
