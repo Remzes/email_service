@@ -4,7 +4,7 @@ export default (state = [], action) => {
     const {type, payload} = action;
     switch(type){
         case FETCH_SURVEYS:
-            return action.payload;
+            return payload;
             break;
         default:
             return state;

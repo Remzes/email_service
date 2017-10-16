@@ -1,39 +1,39 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {fetchSurveys} from '../../actions';
 
 class SurveyList extends Component {
-    componentDidMount(){
-        this.props.fetchSurveys();
-    }
-
     renderSurveys() {
         return this.props.surveys.reverse().map(survey => {
             return (
-                <div className="card darken-1" key={survey._id}>
-                    <div className="card-content">
-                        <span className="card-title">{survey.title}</span>
+                <section className="dashboard__container__survey-list__survey" key={survey._id}>
+                    <section className="dashboard__container__survey-list__survey__container">
+                        <span className="dashboard__container__survey-list__survey__container__title">{survey.title}</span>
                         <p>
-                            {survey.body}
+                            Survey body: <span className="bold-text">{survey.body}</span>
+                        </p>
+                        <p>
+                            Statistics:
+                        </p>
+                        <p>
+                            Yes: {survey.yes}
+                        </p>
+                        <p>
+                            No: {survey.no}
                         </p>
                         <p className="right">
                             Sent On: {new Date(survey.dateSent).toLocaleDateString()}
                         </p>
-                    </div>
-                    <div className="card-action">
-                        <a>Yes: {survey.yes}</a>
-                        <a>No: {survey.no}</a>
-                    </div>
-                </div>
+                    </section>
+                </section>
             );
         });
     }
 
     render(){
         return (
-          <div>{this.renderSurveys()}</div>
+          <div className="dashboard__container__survey-list">{this.renderSurveys()}</div>
         );
     }
 }
 
-export default connect(({surveys}) => ({surveys}), {fetchSurveys})(SurveyList);
+export default (SurveyList);

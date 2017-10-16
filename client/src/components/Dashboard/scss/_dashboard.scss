@@ -1,0 +1,68 @@
+.dashboard {
+  min-height: calc(100vh - 175px);
+  &__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+      &__button_div {
+        margin-bottom: 50px;
+      }
+
+      text-align:center;
+      h4 {
+        @include media_query($desktop-var){
+          font-size: 36px;
+          margin-bottom: 20px;
+        }
+        @include media_query($non-desktop-var){
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+      }
+      h6 {
+        margin-bottom: 30px;
+        color: $sub-color_gray;
+        @include media_query($desktop-var){
+          font-size: 25px;
+        }
+        @include media_query($non-desktop-var){
+          font-size: 18px;
+        }
+      }
+    }
+
+    &__survey-list {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+
+      &__survey {
+        padding: 30px;
+        flex: 1 0 40%;
+        @include media_query($desktop-var){
+          min-width: 400px;
+        }
+
+        @include media_query($non-desktop-var){
+          min-width: 200px;
+        }
+        max-width: 700px;
+        border: 1px solid #000;
+        margin: 30px;
+
+
+        &__container {
+
+          &__title {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

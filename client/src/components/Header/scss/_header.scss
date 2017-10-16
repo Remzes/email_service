@@ -7,6 +7,11 @@
     width: 100%;
     box-shadow: none;
     transition: all ease-in-out 500ms;
+    color: $sub-color_black;
+
+    .logout_btn {
+      color: $sub-color_black;
+    }
 
     &--inner {
       width: 90%;

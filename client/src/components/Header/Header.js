@@ -50,7 +50,7 @@ class Header extends Component {
                 <li key="3" style={{margin: '0 10px'}}>
                     Credits: {this.props.auth.credits}
                 </li>,
-                <li key="4"><a href="/api/logout">Log out</a></li>
+                <li key="4"><a href="/api/logout" className="logout_btn">Log out</a></li>
             ];
         } else {
             return <li><a href="/api/login">Login with google</a></li>
