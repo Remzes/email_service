@@ -38,11 +38,11 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <ScrollToTop>
-                    <Scrollbars
-                        ref="scrollbars"
-                        className="scroll-content"
-                        id="scroll-content"
-                    >
+                    {/*<Scrollbars*/}
+                        {/*ref="scrollbars"*/}
+                        {/*className="scroll-content"*/}
+                        {/*id="scroll-content"*/}
+                    {/*>*/}
                         <div className="container" id="container" ref="container">
                             <div className="content" id="content">
                                 <Header />
@@ -52,7 +52,7 @@ class App extends Component {
                                 <Footer />
                             </div>
                         </div>
-                    </Scrollbars>
+                    {/*</Scrollbars>*/}
                 </ScrollToTop>
             </BrowserRouter>
         );
