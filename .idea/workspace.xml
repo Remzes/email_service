@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ffdd3c7-77cf-4cbb-8358-e9408e4727a5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/devices/ihpone_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/ipad_with_keys_rotated.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/ipad_with_keys_sraight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/iphone_X.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/assets/Images/samsung.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.env.development" afterPath="$PROJECT_DIR$/client/.env.development" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.env.production" afterPath="$PROJECT_DIR$/client/.env.production" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Landing/index.js" afterPath="$PROJECT_DIR$/client/src/components/Landing/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/fixures/index.js" afterPath="$PROJECT_DIR$/client/src/fixures/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,26 +39,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/fixures/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="138">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <marker date="1508120434576" expanded="true" signature="965:1629" ph="&lt;Scrollbars/&gt;" />
+                <element signature="e#2213#2752#0" expanded="false" />
+                <element signature="e#2794#3350#0" expanded="false" />
+                <element signature="e#3542#4084#0" expanded="false" />
+                <element signature="e#4126#4673#0" expanded="false" />
+                <element signature="e#4863#5403#0" expanded="false" />
+                <element signature="e#5445#5990#0" expanded="false" />
+                <element signature="e#6173#6712#0" expanded="false" />
+                <element signature="e#6754#7300#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js">
+      <file leaf-file-name="_block_five.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+            <state relative-caret-position="207">
+              <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockOne.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-455">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockFour.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockFive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="120" lean-forward="false" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#240#604#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,6 +149,7 @@
       <find>desktop</find>
       <find>pa</find>
       <find>parentNode</find>
+      <find>50px 0</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
@@ -84,6 +161,7 @@
       <replace>4x</replace>
       <replace>blockseven</replace>
       <replace>desktop-var</replace>
+      <replace>50px 0 0</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Документы\Desktop\nodefull\client\src\components\Landing</dir>
@@ -96,18 +174,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/components/Payment/Payments.js" />
-        <option value="$PROJECT_DIR$/client/package.json" />
-        <option value="$PROJECT_DIR$/client/src/reducers/sliderElements.js" />
         <option value="$PROJECT_DIR$/client/src/store/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/MapContainer.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSix/BlockSix.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/index.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" />
         <option value="$PROJECT_DIR$/middlewares/requireCredits.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" />
@@ -131,21 +201,29 @@
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockThree/BlockThree.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFour/scss/_block_four.scss" />
         <option value="$PROJECT_DIR$/client/src/assets/Styles/App.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockThree/scss/_block_three.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Header/scss/_header.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/App.js" />
         <option value="$PROJECT_DIR$/client/src/assets/Styles/_layout.scss" />
         <option value="$PROJECT_DIR$/client/src/components/ScrollToTop.js" />
         <option value="$PROJECT_DIR$/client/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/client/src/decorators/scroll_resize_decorator.js" />
         <option value="$PROJECT_DIR$/client/src/assets/Styles/_variables.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/scss/_slider.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/scss/_block_seven.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Footer/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSix/scss/_block_six.scss" />
+        <option value="$PROJECT_DIR$/client/.env.development" />
+        <option value="$PROJECT_DIR$/client/.env.production" />
+        <option value="$PROJECT_DIR$/client/src/components/App.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/index.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js" />
         <option value="$PROJECT_DIR$/client/src/fixures/index.js" />
       </list>
     </option>
@@ -329,7 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BlockEight" />
+              <option name="myItemId" value="BlockFour" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,11 +437,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BlockEight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoogleMap" />
+              <option name="myItemId" value="BlockFive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +463,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Footer" />
+              <option name="myItemId" value="Landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlockFive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,12 +617,12 @@
       <workItem from="1507601779942" duration="602000" />
       <workItem from="1507646953134" duration="48193000" />
       <workItem from="1507867490438" duration="33013000" />
-      <workItem from="1508029195143" duration="46912000" />
+      <workItem from="1508029195143" duration="58683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475664000" />
+    <option name="totallyTimeSpent" value="487435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,81 +692,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <marker date="1508061895839" expanded="true" signature="95:546" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="108:534" ph="..." />
-            <marker date="1508061895839" expanded="false" signature="130:149" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="150:520" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="293:392" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="408:505" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <marker date="1508067630507" expanded="true" signature="546:1112" ph="{&quot;axios&quot;: &quot;^0.16.2&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/surveysReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -712,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Surveys/SurveyList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-271">
@@ -736,14 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -769,16 +758,6 @@
         <state relative-caret-position="345">
           <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,16 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockTwo/BlockTwo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="72" column="87" lean-forward="false" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockThree/BlockThree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -838,34 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-644">
-          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -936,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-823">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/decorators/scroll_resize_decorator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -953,14 +888,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/ScrollToTop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,6 +934,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockSix/scss/_block_six.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.env.production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Payment/Payments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.env.development">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1508132117030" expanded="true" signature="965:1629" ph="&lt;Scrollbars/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1018,78 +1022,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockTwo/BlockTwo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <element signature="e#861#971#0" expanded="false" />
-            <element signature="e#971#1081#0" expanded="false" />
-            <element signature="e#1081#1191#0" expanded="false" />
-            <element signature="e#1191#1301#0" expanded="false" />
-            <element signature="e#1301#1411#0" expanded="false" />
-            <element signature="e#2223#2333#0" expanded="false" />
-            <element signature="e#2333#2443#0" expanded="false" />
-            <element signature="e#2443#2553#0" expanded="false" />
-            <element signature="e#2553#2663#0" expanded="false" />
-            <element signature="e#2663#2773#0" expanded="false" />
-            <element signature="e#3589#3711#0" expanded="false" />
-            <element signature="e#3711#3821#0" expanded="false" />
-            <element signature="e#3821#3931#0" expanded="false" />
-            <element signature="e#3931#4041#0" expanded="false" />
-            <element signature="e#4041#4151#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockSix/scss/_block_six.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="1633">
+          <caret line="72" column="87" lean-forward="false" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/fixures/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#60#0" expanded="false" />
-            <element signature="e#2056#2769#0" expanded="false" />
-            <element signature="e#2783#3493#0" expanded="false" />
-            <element signature="e#3507#4213#0" expanded="false" />
-            <element signature="e#4227#4927#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        <state relative-caret-position="23">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockSeven/BlockSeven.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="598">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1508120434576" expanded="true" signature="965:1629" ph="&lt;Scrollbars/&gt;" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockSeven/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#139#4429#0" expanded="false" />
+            <element signature="e#520#630#0" expanded="false" />
+            <element signature="e#630#740#0" expanded="false" />
+            <element signature="e#740#850#0" expanded="false" />
+            <element signature="e#850#960#0" expanded="false" />
+            <element signature="e#960#1070#0" expanded="false" />
+            <element signature="e#1882#1992#0" expanded="false" />
+            <element signature="e#1992#2102#0" expanded="false" />
+            <element signature="e#2102#2212#0" expanded="false" />
+            <element signature="e#2212#2322#0" expanded="false" />
+            <element signature="e#2322#2432#0" expanded="false" />
+            <element signature="e#3248#3370#0" expanded="false" />
+            <element signature="e#3370#3480#0" expanded="false" />
+            <element signature="e#3480#3590#0" expanded="false" />
+            <element signature="e#3590#3700#0" expanded="false" />
+            <element signature="e#3700#3810#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/_landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockEight/GoogleMap/Map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        <state relative-caret-position="276">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <marker date="1508132881892" expanded="true" signature="735:928" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/ScrollToTop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/scss/_block_five.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#240#604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/BlockOne.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFive/BlockFive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="120" lean-forward="false" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/fixures/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="e#2213#2752#0" expanded="false" />
+            <element signature="e#2794#3350#0" expanded="false" />
+            <element signature="e#3542#4084#0" expanded="false" />
+            <element signature="e#4126#4673#0" expanded="false" />
+            <element signature="e#4863#5403#0" expanded="false" />
+            <element signature="e#5445#5990#0" expanded="false" />
+            <element signature="e#6173#6712#0" expanded="false" />
+            <element signature="e#6754#7300#0" expanded="false" />
           </folding>
         </state>
       </provider>

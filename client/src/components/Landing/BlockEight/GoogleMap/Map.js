@@ -4,7 +4,7 @@ import {withScriptjs, withGoogleMap, GoogleMap, Marker} from 'react-google-maps'
 
 const Map = compose(
     withProps({
-        googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCMO_d5XOzbDt5IOsOMH3AItwi7xO5PEyU&v=3.exp&libraries=geometry,drawing,places",
+        googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_V3}&v=3.exp&libraries=geometry,drawing,places`,
         loadingElement: <section className="loading-map-element" style={{ height: `100%` }} />,
         containerElement: <section className="container-map-element" />,
         mapElement: <section className="map-element" style={{ height: `100%` }} />,
@@ -16,7 +16,7 @@ const Map = compose(
 )(({lat, lng}) =>
     <GoogleMap
         defaultZoom={15}
-        defaultCenter={{ lat, lng }}
+        defaultCenter={{lat, lng}}
         defaultOptions={{
             scrollwheel: false
         }}

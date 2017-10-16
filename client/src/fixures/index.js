@@ -4,7 +4,7 @@ import IPHONE_8 from '../assets/Images/devices/iphone_8.png';
 import MSI_LAPTOP from '../assets/Images/devices/msi_laptop.png';
 
 import FIRST_IPAD from "../assets/Images/ipad-air-horizontal.png";
-import SAMSUNG from "../assets/Images/samsung.jpg";
+import SAMSUNG from "../assets/Images/samsung.png";
 import MACBOOK_ROTATED from "../assets/Images/mackbook_rotated.png";
 import MACBOOK_FRONT from "../assets/Images/mackbook_pro.png";
 import IPAD_ROTATED from "../assets/Images/ipad_with_keys.png";
@@ -53,11 +53,28 @@ export async function loadAllImages() {
                 id: 0,
                 device: "Apple iMac",
                 image: SLIDER_CONFIGURATION_IMAGES[0],
-                styles: {
+                low_resolution_styles: {
+                    carousel_item: {
+                        width: "74%",
+                        height: "auto",
+                        top: "-15%",
+                        left: "0"
+                    },
+                    carousel: {
+                        height: "72vw",
+                        margin: "50px 0 0"
+                    },
+                    device: {
+                        width: "80%",
+                        height: "auto",
+                        marginLeft: "-40%"
+                    }
+                },
+                high_resolution_styles: {
                     carousel_item: {
                         width: "41.6vw",
                         height: "auto",
-                        top: "-4.095vw",
+                        top: "-4.35vw",
                         left: "-0.13vw"
                     },
                     carousel: {
@@ -75,7 +92,24 @@ export async function loadAllImages() {
                 id: 1,
                 device: "Apple Macbook Pro",
                 image: SLIDER_CONFIGURATION_IMAGES[1],
-                styles: {
+                low_resolution_styles: {
+                    carousel_item: {
+                        width: "71%",
+                        height: "auto",
+                        top: "-12%",
+                        left: ".3%"
+                    },
+                    carousel: {
+                        height: "72vw",
+                        margin: "50px 0 0"
+                    },
+                    device: {
+                        width: "100%",
+                        height: "auto",
+                        marginLeft: "-50%"
+                    }
+                },
+                high_resolution_styles: {
                     carousel_item: {
                         width: "37vw",
                         height: "auto",
@@ -97,7 +131,24 @@ export async function loadAllImages() {
                 id: 2,
                 device: "MSI GP72VR 7RFX",
                 image: SLIDER_CONFIGURATION_IMAGES[2],
-                styles: {
+                low_resolution_styles: {
+                    carousel_item: {
+                        width: "64%",
+                        height: "auto",
+                        top: "-17%",
+                        left: "1.5%"
+                    },
+                    carousel: {
+                        height: "72vw",
+                        margin: "50px 0"
+                    },
+                    device: {
+                        width: "90%",
+                        height: "auto",
+                        marginLeft: "-45%"
+                    }
+                },
+                high_resolution_styles: {
                     carousel_item: {
                         width: "35vw",
                         height: "auto",
@@ -119,7 +170,24 @@ export async function loadAllImages() {
                 id: 3,
                 device: "Iphone 8",
                 image: SLIDER_CONFIGURATION_IMAGES[3],
-                styles: {
+                low_resolution_styles: {
+                    carousel_item: {
+                        width: "26%",
+                        height: "auto",
+                        top: "-24%",
+                        left: "0"
+                    },
+                    carousel: {
+                        height: "72vw",
+                        margin: "50px 0 0"
+                    },
+                    device: {
+                        width: "32%",
+                        height: "auto",
+                        marginLeft: "-16%"
+                    }
+                },
+                high_resolution_styles: {
                     carousel_item: {
                         width: "14vw",
                         height: "auto",

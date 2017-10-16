@@ -18,7 +18,7 @@ class Landing extends Component {
         const config = this.props.initialConfiguration;
         if (config.fetched) {
             const IMAGES = config.data.BASIC_IMAGES;
-            const {width} = this.props;
+            const {width, scroll} = this.props;
             return (
                 <div id="landing">
                     <BlockOne
@@ -40,6 +40,7 @@ class Landing extends Component {
                     />
                     <BlockFive
                         width={width}
+                        scroll={scroll}
                     />
                     <BlockSix
                         width={width}

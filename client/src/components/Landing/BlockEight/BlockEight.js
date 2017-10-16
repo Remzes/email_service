@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import MapContainer from './GoogleMap/MapContainer';
 import {findDOMNode} from 'react-dom';
-import appDesign from '../../../decorators/scroll_resize_decorator';
 import Icon from 'react-fa';
 
 class BlockEight extends Component {

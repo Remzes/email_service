@@ -5,13 +5,16 @@ import * as actions from '../../../actions';
 
 //Hint: Use container for the images in the slider
 //Because errors with movement is appeared
-class BlockFour extends Component {
+class BlockFive extends Component {
+
+    shouldComponentUpdate(nextProps){
+        return nextProps.width !== this.props.width || nextProps.scroll < 100 || nextProps.config !== this.props.config;
+    }
 
     render() {
 
-        console.log(this.props.initialConfiguration);
         const configuration = this.props.initialConfiguration.data.SLIDER_CONFIGURATION;
-        const {width, config, selectConfig} = this.props;
+        const {width, scroll, config, selectConfig} = this.props;
         return (
             <div className="blockfive">
                 <div className="blockfive--inner">
@@ -53,7 +56,9 @@ class BlockFour extends Component {
                             {
                                 <Slider
                                     width={width}
-                                    styles={configuration[config].styles}
+                                    scroll={scroll}
+                                    high_resolution_styles={configuration[config].high_resolution_styles}
+                                    low_resolution_styles={configuration[config].low_resolution_styles}
                                     device_image={configuration[config].image}
                                 />
                             }
@@ -72,4 +77,4 @@ const mapStateToProps = ({initialConfiguration, config}) => {
     }
 };
 
-export default connect(mapStateToProps, actions)(BlockFour);
+export default connect(mapStateToProps, actions)(BlockFive);

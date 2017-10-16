@@ -5,6 +5,8 @@ import $ from 'jquery';
 //Library to add behavior to functional component
 import functional from 'react-functional';
 
+
+
 //Behavior
 const options = {
     componentDidMount: (props) => {
@@ -12,13 +14,11 @@ const options = {
         $('.carousel').carousel({
             shift: props.width / 4
         });
-        console.log("Slider is mounted");
     },
     componentDidUpdate: (props) => {
         $('.carousel').carousel({
             shift: props.width / 4
         });
-        console.log("Slider is updated");
     },
     componentWillUpdate: () => {
         $(".carousel").carousel("destroy");
@@ -26,7 +26,9 @@ const options = {
 };
 
 //Functional Stateless Component
-const Slider = ({styles, device_image}) => {
+const Slider = ({device_image, high_resolution_styles, low_resolution_styles, width}) => {
+    const styles = (width > 1400) ? high_resolution_styles : low_resolution_styles;
+    console.log(width);
     return (
 
         <div className="blockfive__container__gallery__container">

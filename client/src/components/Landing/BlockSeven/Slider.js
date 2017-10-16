@@ -1,21 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 import Icon from 'react-fa';
-//Library to add behavior to functional component
-import functional from 'react-functional';
-
-const options = {
-    componentDidUpdate: (props) => {
-        $('.blockseven .carousel').carousel({
-            shift: 100,
-            fullWidth: props.width < 993
-        });
-    },
-    componentWillUpdate: () => {
-        $(".blockseven .carousel").carousel("destroy");
-    }
-};
-
+import {lifecycle} from 'recompose';
 
 const Slider = () => {
     return (
@@ -119,4 +105,14 @@ const Slider = () => {
     );
 };
 
-export default functional(Slider, options);
+export default lifecycle ({
+    componentDidUpdate: (props) => {
+        $('.blockseven .carousel').carousel({
+            shift: 100,
+            fullWidth: props.width < 993
+        });
+    },
+    componentWillUpdate: () => {
+        $(".blockseven .carousel").carousel("destroy");
+    }
+})(Slider);
