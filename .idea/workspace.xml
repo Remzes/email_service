@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ffdd3c7-77cf-4cbb-8358-e9408e4727a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,19 +54,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="surveyTemplate.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="surveyTemplate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <marker date="1508236446528" expanded="true" signature="95:544" ph="..." />
+                <marker date="1508236446528" expanded="true" signature="108:532" ph="..." />
+                <marker date="1508236446528" expanded="false" signature="130:149" ph="..." />
+                <marker date="1508236446528" expanded="true" signature="150:518" ph="..." />
+                <marker date="1508236446528" expanded="true" signature="293:391" ph="..." />
+                <marker date="1508236446528" expanded="true" signature="407:503" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey_template_to_configure.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/emailTemplates/survey_template_to_configure.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508061895839" expanded="true" signature="95:546" ph="..." />
-                <marker date="1508061895839" expanded="true" signature="108:534" ph="..." />
-                <marker date="1508061895839" expanded="false" signature="130:149" ph="..." />
-                <marker date="1508061895839" expanded="true" signature="150:520" ph="..." />
-                <marker date="1508061895839" expanded="true" signature="293:392" ph="..." />
-                <marker date="1508061895839" expanded="true" signature="408:505" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/client/src/components/Footer/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/client/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/client/src/components/Landing/BlockEight/BlockEight.js" />
@@ -180,6 +188,7 @@
         <option value="$PROJECT_DIR$/services/Mailer.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" />
       </list>
     </option>
   </component>
@@ -422,12 +431,12 @@
       <workItem from="1507601779942" duration="602000" />
       <workItem from="1507646953134" duration="48193000" />
       <workItem from="1507867490438" duration="33013000" />
-      <workItem from="1508029195143" duration="104478000" />
+      <workItem from="1508029195143" duration="106189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533230000" />
+    <option name="totallyTimeSpent" value="534941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,7 +448,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="8" width="1906" height="1023" extended-state="0" />
+    <frame x="2" y="8" width="1906" height="1023" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -497,24 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/BlockFour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockFour/scss/_block_four.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Landing/BlockOne/scss/_block_one.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -879,14 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/emailTemplates/survey_template_to_configure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/Mailer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
@@ -927,18 +910,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/passport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <marker date="1508061895839" expanded="true" signature="95:546" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="108:534" ph="..." />
-            <marker date="1508061895839" expanded="false" signature="130:149" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="150:520" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="293:392" ph="..." />
-            <marker date="1508061895839" expanded="true" signature="408:505" ph="..." />
+            <marker date="1508236446528" expanded="true" signature="95:544" ph="..." />
+            <marker date="1508236446528" expanded="true" signature="108:532" ph="..." />
+            <marker date="1508236446528" expanded="false" signature="130:149" ph="..." />
+            <marker date="1508236446528" expanded="true" signature="150:518" ph="..." />
+            <marker date="1508236446528" expanded="true" signature="293:391" ph="..." />
+            <marker date="1508236446528" expanded="true" signature="407:503" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/emailTemplates/survey_template_to_configure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
