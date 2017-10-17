@@ -10,7 +10,6 @@ import functional from 'react-functional';
 //Behavior
 const options = {
     componentDidMount: (props) => {
-        $('ul.tabs').tabs();
         $('.carousel').carousel({
             shift: props.width / 4
         });

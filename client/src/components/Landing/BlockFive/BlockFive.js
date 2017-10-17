@@ -7,8 +7,8 @@ import * as actions from '../../../actions';
 //Because errors with movement is appeared
 class BlockFive extends Component {
 
-    shouldComponentUpdate(nextProps){
-        return nextProps.width !== this.props.width || nextProps.scroll < 100 || nextProps.config !== this.props.config;
+    shouldComponentUpdate(nextProps) {
+        return nextProps.width !== this.props.width || nextProps.scroll < 200 || nextProps.config !== this.props.config;
     }
 
     render() {
@@ -32,24 +32,21 @@ class BlockFive extends Component {
                             <h2>
                                 Choose your device to what screenshots
                             </h2>
-                            <ul className="tabs">
+                            <section className="blockfive__container__device__nav">
                                 {
                                     configuration.map(item =>
-                                        <li
-                                            key={item.id}
-                                            className="tab"
+                                        <a
+                                           key={item.id}
+                                           className="blockfive__container__device__nav__button btn"
+                                           onClick={
+                                               () => selectConfig(item.id)
+                                           }
                                         >
-                                            <a href="#"
-                                               onClick={
-                                                   () => selectConfig(item.id)
-                                               }
-                                            >
-                                                {item.device}
-                                            </a>
-                                        </li>
+                                            {item.device}
+                                        </a>
                                     )
                                 }
-                            </ul>
+                            </section>
                         </div>
                         <div className="blockfive__container__gallery">
                             {

@@ -67,6 +67,24 @@
 
     //Device
     &__device {
+      &__nav {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        &__button {
+          background-color: $sub-color_red;
+          width: 215px;
+          margin: 10px;
+
+          &:hover, &:focus {
+            background-color: $sub-color_red;
+          }
+        }
+      }
+
       h2 {
         margin-bottom: 15px;
         @include media_query($non-desktop-var) {

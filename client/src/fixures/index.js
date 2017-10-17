@@ -172,10 +172,10 @@ export async function loadAllImages() {
                 image: SLIDER_CONFIGURATION_IMAGES[3],
                 low_resolution_styles: {
                     carousel_item: {
-                        width: "26%",
+                        width: "22%",
                         height: "auto",
-                        top: "-24%",
-                        left: "0"
+                        top: "-27.3%",
+                        left: "-0.2%"
                     },
                     carousel: {
                         height: "72vw",
@@ -189,9 +189,9 @@ export async function loadAllImages() {
                 },
                 high_resolution_styles: {
                     carousel_item: {
-                        width: "14vw",
+                        width: "12vw",
                         height: "auto",
-                        top: "-8.2vw",
+                        top: "-9.4vw",
                         left: "0"
                     },
                     carousel: {
