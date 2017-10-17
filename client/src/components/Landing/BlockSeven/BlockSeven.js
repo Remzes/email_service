@@ -3,7 +3,7 @@ import Slider from './Slider';
 
 const BlockSeven = ({width}) => {
     return (
-        <section className="blockseven">
+        <section className="blockseven" id="reviews">
             <section className="blockseven--inner">
                 <section className="blockseven__container">
                     <section className="blockseven__container__header">

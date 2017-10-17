@@ -1,41 +1,49 @@
 import _ from 'lodash';
 import React from 'react';
 import {connect} from 'react-redux';
-import formFields from '../assets/FormFieldsInfo';
+import formFields from '../../assets/FormFieldsInfo';
 import {withRouter} from 'react-router-dom';
-import * as actions from '../../../actions/index';
+import * as actions from '../../../../actions/index';
 
 const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
     const reviewFields = _.map(formFields, ({name, label}) => {
-       return (
-            <div key={name}>
+        return (
+            <section key={name} className="form_section--form-review__container__fields__field">
                 <label>{label}</label>
-                <div>{formValues[name]}</div>
-            </div>
-       );
+                <p>{formValues[name]}</p>
+            </section>
+        );
     });
 
     return (
-        <main>
-            <h5>Please, confirm your entries</h5>
-            {reviewFields}
-            <button
-                className="yellow darken-3 white-text btn-flat"
-                onClick={onCancel}
-            >
-                Back
-            </button>
-            <button
-                onClick={() => submitSurvey(formValues, history)}
-                className="green btn-flat right white-text">
-                Send Survey
-                <i className="material-icons right">email</i>
-            </button>
-        </main>
+        <section className="form_section--form-review__container">
+            <h5 className="form_section--form-review__container__header">
+                Please, confirm your entries
+            </h5>
+            <section className="form_section--form-review--inner">
+                <section className="form_section--form-review__container__fields">
+                    {reviewFields}
+                </section>
+                <section className="form_section--form-review__container__buttons">
+                    <button
+                        className="yellow darken-3 white-text btn-flat"
+                        onClick={onCancel}
+                    >
+                        Back
+                    </button>
+                    <button
+                        onClick={() => submitSurvey(formValues, history)}
+                        className="green btn-flat right white-text">
+                        Send Survey
+                        <i className="material-icons right">email</i>
+                    </button>
+                </section>
+            </section>
+        </section>
     )
 };
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
     return {
         formValues: state.form.surveyForm.values
     };

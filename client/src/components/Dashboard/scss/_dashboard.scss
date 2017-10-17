@@ -14,11 +14,9 @@
       h4 {
         @include media_query($desktop-var) {
           font-size: 36px;
-          margin-bottom: 20px;
         }
         @include media_query($non-desktop-var) {
           font-size: 25px;
-          margin-bottom: 10px;
         }
       }
       h6 {
@@ -57,8 +55,11 @@
         &__container {
 
           &__title {
+            height: 385px;
             background-color: #fff;
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             font-weight: bold;
             width: 100%;
             text-align: center;
@@ -93,10 +94,41 @@
               color: $sub-color_black;
             }
           }
-          &__body {
-            p {
-              color: $sub-color_black;
+          h3 {
+            text-align: center;
+            @include media_query($desktop-var){
+              font-size: 25px;
+              margin-top: 20px;
             }
+            @include media_query($non-desktop-var){
+              font-size: 20px;
+              margin-top: 10px;
+            }
+          }
+
+          &__body {
+            background-color: lighten($sub-color_gray, 35%);
+            padding: 10px !important;
+            li {
+              display: inline-block;
+              width: 100%;
+              color: $sub-color_black;
+              background-color: transparent;
+              @include media_query($desktop-var){
+                font-size: 16px;
+              }
+              @include media_query($non-desktop-var){
+                font-size: 14px;
+              }
+              padding-bottom: 10px;
+              margin-bottom: 20px;
+              border-bottom: $sub-color_gray 1px solid;
+            }
+
+          }
+          p.right {
+            color: $sub-color_black;
+            margin-top: 10px;
           }
         }
       }

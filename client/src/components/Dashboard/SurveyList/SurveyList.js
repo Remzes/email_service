@@ -48,7 +48,7 @@ class SurveyList extends Component {
     renderSurveys() {
         const {surveys} = this.props;
         return _.chain(surveys)
-            .sortBy(["yes", "no", "dateSent"])
+            .sortBy(["dateSent", "yes", "no"])
             .reverse()
             .map(survey => {
                 return (

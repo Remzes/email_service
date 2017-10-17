@@ -4,7 +4,7 @@ import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {compose} from 'recompose';
 import {fetchSurveys} from '../../actions';
-import SurveyList from '../Surveys/SurveyList';
+import SurveyList from './SurveyList/SurveyList';
 import Loader from '../Loader/Loader';
 
 class Dashboard extends Component {
@@ -38,7 +38,6 @@ class Dashboard extends Component {
                             </div>
                         </section>
                         <SurveyList surveys={surveys}/>
-
                     </main>
                 </section>
             )

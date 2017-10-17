@@ -12,24 +12,19 @@ import 'materialize-css/dist/js/materialize.min';
 import classNames from 'classnames';
 //Decorator
 import appDesign from '../../decorators/scroll_resize_decorator';
-//Find element in real DOM
-import {findDOMNode} from 'react-dom';
 
 //Header class component
 class Header extends Component {
 
     //Render the header for landing page
     renderLandingPageHeaderContent() {
-        let link_class_object = classNames({
-            "black-text": true
-        });
 
         return [
-            <li key="1"><a href="#" className={link_class_object}>Home</a></li>,
-            <li key="2"><a href="#" className={link_class_object}>Features</a></li>,
-            <li key="3"><a href="#" className={link_class_object}>Pricing</a></li>,
-            <li key="4"><a href="#" className={link_class_object}>Reviews</a></li>,
-            <li key="5"><a href="#" className={link_class_object}>Contact</a></li>
+            <li key="1"><a href="" className="black-text">Home</a></li>,
+            <li key="2"><a href="" className="black-text">Features</a></li>,
+            <li key="3"><a href="" className="black-text">Gallery</a></li>,
+            <li key="4"><a href="" className="black-text">Reviews</a></li>,
+            <li key="5"><a href="" className="black-text">Contact</a></li>
         ];
     };
 
@@ -40,14 +35,12 @@ class Header extends Component {
             return [
                 <li key="1"><Payments/></li>,
                 <li key="2">
-                    <Link to="/surveys/new"
-                          className="btn red"
-                    >
-                        <i className="material-icons left">add</i>
+                    <Link to="/surveys/new" className="btn red">
+                        <i className="material-icons left add_new_survey_btn">add</i>
                         Add New Survey
                     </Link>
                 </li>,
-                <li key="3" style={{margin: '0 10px'}}>
+                <li key="3" style={{margin: '0 10px'}} className="credits">
                     Credits: {this.props.auth.credits}
                 </li>,
                 <li key="4"><a href="/api/logout" className="logout_btn">Log out</a></li>
@@ -56,10 +49,6 @@ class Header extends Component {
             return <li><a href="/api/login">Login with google</a></li>
         }
     };
-
-    // componentDidUpdate(){
-    //     console.log(this.props.scroll);
-    // }
 
     render() {
 

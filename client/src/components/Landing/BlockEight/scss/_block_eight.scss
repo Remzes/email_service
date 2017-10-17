@@ -69,8 +69,17 @@
             padding: 10px;
           }
 
+          //TO BE FIXED!!! - TO TABLE-CELL
           span {
             display: inline-block;
+            color: $sub-color_red;
+            @include media_query($desktop-var){
+              line-height: 44px;
+              height: 44px;
+              position: relative;
+              left: -10px;
+              top: -5px;
+            }
           }
 
           p {

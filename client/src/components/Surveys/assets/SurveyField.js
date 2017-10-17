@@ -18,15 +18,15 @@ const SurveyField = ({input, label, meta}) => {
     };
 
     return (
-        <div>
+        <section className="form_section__container__form__input-container">
             <label>{label}</label>
-            <input {...input} style={{marginBottom: '5px'}}/>
-            <div className="red-text" id={id} style={{marginBottom: '20px'}}>
+            <input {...input} className="form_section__container__form__container__input-container__input-field" />
+            <div className="error_text" id={id} >
                 {
                     toggleError(meta.touched, meta.error)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -5,7 +5,7 @@ class BlockTwo extends Component {
 
     render() {
         return (
-            <section className="blocktwo">
+            <section className="blocktwo" id="features">
                 <section className="blocktwo--inner">
                     <section className="blocktwo__header">
                         <section className="blocktwo__header__container center-align">

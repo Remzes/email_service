@@ -15,7 +15,7 @@ class BlockFive extends Component {
         const configuration = this.props.initialConfiguration.data.SLIDER_CONFIGURATION;
         const {width, scroll, config, selectConfig} = this.props;
         return (
-            <div className="blockfive">
+            <div className="blockfive" id="gallery">
                 <div className="blockfive--inner">
                     <div className="blockfive__container">
                         <div className="blockfive__container__header">

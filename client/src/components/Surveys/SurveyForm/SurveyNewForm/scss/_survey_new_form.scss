@@ -1,0 +1,59 @@
+.form_section {
+  @extend .dashboard;
+
+  &__container {
+    @extend .dashboard__container;
+    position: relative;
+
+    &__header {
+      width: 80%;
+      text-align: center;
+      margin: 0 auto 100px;
+      @include media_query($desktop-var) {
+        font-size: 25px;
+      }
+      @include media_query($non-desktop-var) {
+        font-size: 20px;
+      }
+    }
+
+    &__form {
+      width: 80%;
+      margin: 0 auto;
+      padding: 30px;
+      box-shadow: 0 0 5px $sub-color_gray;
+      background-color: lighten($sub-color_gray, 42%);
+
+      &__input-container {
+        padding-bottom: 30px;
+
+        input {
+          margin-bottom: 5px !important;
+        }
+
+        .error_text {
+          color: $sub-color_red;
+        }
+      }
+
+      &__buttons {
+        display: flex;
+        @include media_query($desktop-var) {
+          justify-content: space-between;
+        }
+        @include media_query($non-desktop-var) {
+          justify-content: space-around;
+        }
+        align-items: center;
+
+        .reset_btn {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          margin-left: -76.5px;
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}

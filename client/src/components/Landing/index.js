@@ -4,6 +4,7 @@ import {compose} from 'recompose';
 import appDesign from '../../decorators/scroll_resize_decorator';
 import {connect} from 'react-redux';
 
+//Landing Components
 import BlockOne from './BlockOne/BlockOne';
 import BlockTwo from './BlockTwo/BlockTwo';
 import BlockThree from './BlockThree/BlockThree';
@@ -12,6 +13,7 @@ import BlockFive from './BlockFive/BlockFive';
 import BlockSix from "./BlockSix/BlockSix";
 import BlockSeven from "./BlockSeven/BlockSeven";
 import BlockEight from "./BlockEight/BlockEight";
+//End of landing components
 
 class Landing extends Component {
     render() {

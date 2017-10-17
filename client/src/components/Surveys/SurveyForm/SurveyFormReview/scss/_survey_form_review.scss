@@ -1,0 +1,40 @@
+.form_section--form-review__container {
+  .form_section--form-review--inner {
+    @extend .form_section__container__form;
+  }
+
+  &__header {
+    @extend .form_section__container__header;
+    @include media_query($desktop-var){
+      margin-bottom: 50px !important;
+    }
+
+    @include media_query($non-desktop-var){
+      margin-bottom: 30px !important;
+    }
+  }
+
+  &__fields {
+    &__field {
+      label {
+        color: $sub-color_green;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      p {
+        color: $sub-color_black;
+      }
+      padding-bottom: 10px;
+      border-bottom: 1px solid #9e9e9e;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__buttons {
+    @extend .form_section__container__form__buttons;
+    flex-wrap: wrap;
+    button {
+      margin-top: 10px;
+    }
+  }
+}

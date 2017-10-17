@@ -3,13 +3,13 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import {connect} from 'react-redux';
 import * as actions from '../actions';
 import "../assets/Styles/App.css";
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../decorators/scroll_to_top';
 import "babel-polyfill";
 
 import Header from './Header/Header';
 import Landing from './Landing/index';
 import Dashboard from './Dashboard/Dashboard';
-import SurveyNew from './Surveys/SurveyNew';
+import SurveyNew from './Surveys/SurveyContainer/SurveyContainer';
 import Footer from './Footer/Footer';
 import Loader from './Loader/Loader';
 

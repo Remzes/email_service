@@ -13,7 +13,7 @@ class BlockEight extends Component {
 
     render() {
         return (
-            <section className="blockeight">
+            <section className="blockeight" id="contact">
                 <section className="blockeight--inner">
                     <section className="blockeight__container">
                         <MapContainer/>

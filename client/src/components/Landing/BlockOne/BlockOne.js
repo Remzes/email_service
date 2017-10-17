@@ -8,7 +8,7 @@ class BlockOne extends Component {
     render() {
 
         return (
-            <section style={{textAlign: 'center'}} className="block-one">
+            <section style={{textAlign: 'center'}} className="block-one" id="home">
                 <div className="block-one__jumbotron">
                     <div className="block-one__jumbotron__text">
                         <h1 className="block-one__jumbotron__text__header">
