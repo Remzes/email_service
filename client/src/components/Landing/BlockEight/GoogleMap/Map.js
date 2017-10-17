@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {withProps, compose} from 'recompose';
 import {withScriptjs, withGoogleMap, GoogleMap, Marker} from 'react-google-maps';
 
+//Map component
 const Map = compose(
+    //Props
     withProps({
         googleMapURL: `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_V3}&v=3.exp&libraries=geometry,drawing,places`,
         loadingElement: <section className="loading-map-element" style={{ height: `100%` }} />,

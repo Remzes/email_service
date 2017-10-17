@@ -1,15 +1,20 @@
+//Slider images
 import IMAC from '../assets/Images/devices/mac_monitor.png';
 import MACBOOK from '../assets/Images/devices/macbook_pro.png';
 import IPHONE_8 from '../assets/Images/devices/iphone_8.png';
 import MSI_LAPTOP from '../assets/Images/devices/msi_laptop.png';
+//End of slider images
 
+//Basic page images
 import FIRST_IPAD from "../assets/Images/ipad-air-horizontal.png";
 import SAMSUNG from "../assets/Images/samsung.png";
 import MACBOOK_ROTATED from "../assets/Images/mackbook_rotated.png";
 import MACBOOK_FRONT from "../assets/Images/mackbook_pro.png";
 import IPAD_ROTATED from "../assets/Images/ipad_with_keys.png";
 import IPAD_FRONT from "../assets/Images/ipad_with_keys_rotated_2.jpg";
+//End of basic page images
 
+//Function to load image
 function loadImage(img) {
     return new Promise((resolve, reject) => {
         toDataURL(img, function (dataUrl) {
@@ -18,6 +23,7 @@ function loadImage(img) {
     });
 }
 
+//Function to convert image to base 64
 function toDataURL(url, callback) {
     const xhr = new XMLHttpRequest();
     xhr.onload = function () {
@@ -32,6 +38,7 @@ function toDataURL(url, callback) {
     xhr.send();
 }
 
+//Converted values
 const IMAC_IMG_BASE64 = loadImage(IMAC);
 const MACBOOK_IMG_BASE64 = loadImage(MACBOOK);
 const MSI_IMG_BASE64 = loadImage(MSI_LAPTOP);
@@ -42,6 +49,7 @@ const MACBOOK_FRONT_BASE64 = loadImage(MACBOOK_FRONT);
 const MACBOOK_ROTATED_BASE64 = loadImage(MACBOOK_ROTATED);
 const IPAD_FRONT_BASE64 = loadImage(IPAD_FRONT);
 const IPAD_ROTATED_BASE64 = loadImage(IPAD_ROTATED);
+//End of converted values
 
 export async function loadAllImages() {
     const SLIDER_CONFIGURATION_IMAGES = await Promise.all([IMAC_IMG_BASE64, MACBOOK_IMG_BASE64, MSI_IMG_BASE64, PHONE_IMG_BASE64]);

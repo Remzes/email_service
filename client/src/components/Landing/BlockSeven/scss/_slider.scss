@@ -1,13 +1,19 @@
+//Block Seven Slider styles
 .blockseven {
+
+  //Block Seven carousel styles
   .carousel {
 
+    //Block Seven icon 'star' styles
     .fa-star {
       color: #ffcc00;
     }
 
+    //Block Seven slide styles
     .carousel-item {
       background-color: transparent;
 
+      //Block Seven slide container styles
       &__container {
         display: flex;
         justify-content: space-between;
@@ -26,11 +32,13 @@
       @include media_query($non-desktop-var) {
         min-height: 0;
         top: 0;
+
         &__container {
           margin: 30px;
         }
       }
 
+      //Block Seven slide:container paragraph styles
       .paragraph {
         flex: 1;
         margin-top: 20px;

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import animateScrollTo from 'animated-scroll-to';
 
+//Scroll To Top decorator - scroll the page to the top
 class ScrollToTop extends Component {
     componentDidUpdate(prevProps) {
         if (this.props.location.pathname !== prevProps.location) {

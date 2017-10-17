@@ -7,6 +7,7 @@ const initialState = {
     error: null
 };
 
+//Reducer to return configuration object
 export default (state = initialState, action) => {
     const {type, payload} = action;
     switch(type){

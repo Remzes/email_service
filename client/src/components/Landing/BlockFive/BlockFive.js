@@ -3,10 +3,10 @@ import Slider from './Slider';
 import {connect} from 'react-redux';
 import * as actions from '../../../actions';
 
-//Hint: Use container for the images in the slider
-//Because errors with movement is appeared
+//Block Five Component
 class BlockFive extends Component {
 
+    //Update components
     shouldComponentUpdate(nextProps) {
         return nextProps.width !== this.props.width || nextProps.scroll < 200 || nextProps.config !== this.props.config;
     }
@@ -66,6 +66,7 @@ class BlockFive extends Component {
     }
 }
 
+//Redux store data
 const mapStateToProps = ({initialConfiguration, config}) => {
     return {
         initialConfiguration,

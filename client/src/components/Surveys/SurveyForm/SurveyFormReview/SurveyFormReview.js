@@ -5,7 +5,10 @@ import formFields from '../../assets/FormFieldsInfo';
 import {withRouter} from 'react-router-dom';
 import * as actions from '../../../../actions/index';
 
+//Survey Form Review Component
 const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
+
+    //Review Fields
     const reviewFields = _.map(formFields, ({name, label}) => {
         return (
             <section key={name} className="form_section--form-review__container__fields__field">
@@ -43,6 +46,7 @@ const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
     )
 };
 
+//Redux store data
 function mapStateToProps(state) {
     return {
         formValues: state.form.surveyForm.values

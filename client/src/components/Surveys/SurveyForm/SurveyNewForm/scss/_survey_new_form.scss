@@ -1,10 +1,13 @@
+//Form Section styles
 .form_section {
   @extend .dashboard;
 
+  //Form Section container styles
   &__container {
     @extend .dashboard__container;
     position: relative;
 
+    //Form Section container header styles
     &__header {
       width: 80%;
       text-align: center;
@@ -17,6 +20,7 @@
       }
     }
 
+    //Form Section container form styles
     &__form {
       width: 80%;
       margin: 0 auto;
@@ -24,6 +28,7 @@
       box-shadow: 0 0 5px $sub-color_gray;
       background-color: lighten($sub-color_gray, 42%);
 
+      //Form Section container form: input fields wrapper styles
       &__input-container {
         padding-bottom: 30px;
 
@@ -31,11 +36,13 @@
           margin-bottom: 5px !important;
         }
 
+        //Form Section container form: input fields wrapper - errors styles
         .error_text {
           color: $sub-color_red;
         }
       }
 
+      //Form Section container form: input fields wrapper styles: buttons styles
       &__buttons {
         display: flex;
         @include media_query($desktop-var) {
@@ -46,6 +53,8 @@
         }
         align-items: center;
 
+
+        //Form Section container form: input fields wrapper styles: buttons - reset button styles
         .reset_btn {
           position: absolute;
           top: 0;

@@ -3,6 +3,7 @@ import $ from 'jquery';
 import Icon from 'react-fa';
 import {lifecycle} from 'recompose';
 
+//Block Seven: Slider component
 const Slider = () => {
     return (
         <section className="blockseven__container__gallery__container">

@@ -1,3 +1,4 @@
+//Block Two styles
 .blocktwo {
 
   @include media_query($desktop-var) {
@@ -8,6 +9,7 @@
     padding: 40px 0 0;
   }
 
+  //Block two icon styles
   &__icon {
     color: $sub-color_red !important;
     margin-bottom: 10px;
@@ -22,6 +24,7 @@
     @include clearfix();
   }
 
+  //Block Two Inner styles
   &--inner {
 
     @include media_query($desktop-var) {
@@ -35,6 +38,7 @@
     }
   }
 
+  //Block Two header styles
   &__header {
     width: 100%;
     margin-bottom: 40px;
@@ -43,6 +47,7 @@
       @include clearfix();
     }
 
+    //Block Two header container styles
     &__container {
       margin: 0 auto;
 
@@ -74,6 +79,7 @@
         margin: 10px 0;
       }
 
+      //Block Two title divider styles
       div {
         @extend .title-divider;
         position: absolute;
@@ -84,7 +90,10 @@
     }
   }
 
+  //Block Two features styles
   &__features {
+
+    //Block Two features container styles
     &__container {
       position: relative;
       left: 1px;
@@ -100,6 +109,7 @@
         align-items: center;
       }
 
+      //Block Two single feature styles
       &__feature {
 
         @include media_query($desktop-var) {
@@ -142,6 +152,7 @@
   }
 }
 
+//Animation - MOVE TO ANOTHER FILE
 @keyframes iconPump {
   0% {
     transform: scale(1);

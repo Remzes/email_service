@@ -5,10 +5,13 @@ import fusioncharts from 'fusioncharts';
 import _ from 'lodash';
 import * as moment from 'moment';
 
+//Function to use charts
 charts(fusioncharts);
 
+//Survey List component
 class SurveyList extends Component {
 
+    //Function to render chart
     renderChart(survey) {
         const DATA_SOURCE = {
             chart: {
@@ -45,6 +48,7 @@ class SurveyList extends Component {
         };
     }
 
+    //Function to render surveys
     renderSurveys() {
         const {surveys} = this.props;
         return _.chain(surveys)

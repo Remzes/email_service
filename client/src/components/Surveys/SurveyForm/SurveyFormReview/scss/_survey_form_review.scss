@@ -1,8 +1,11 @@
+//Form Section - Form Review component: container styles
 .form_section--form-review__container {
+  //Form Section - Form Review component: container - inner styles
   .form_section--form-review--inner {
     @extend .form_section__container__form;
   }
 
+  //Form Section - Form Review component: container header styles
   &__header {
     @extend .form_section__container__header;
     @include media_query($desktop-var){
@@ -14,7 +17,10 @@
     }
   }
 
+  //Form Section - Form Review component: container fields styles
   &__fields {
+
+    //Form Section - Form Review component: container fields - single field style
     &__field {
       label {
         color: $sub-color_green;
@@ -30,6 +36,7 @@
     }
   }
 
+  //Form Section - Form Review component: container fields - buttons section style
   &__buttons {
     @extend .form_section__container__form__buttons;
     flex-wrap: wrap;

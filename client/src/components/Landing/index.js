@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import {compose} from 'recompose';
+//Decorator to use scrollTop and width of the browser
 import appDesign from '../../decorators/scroll_resize_decorator';
 import {connect} from 'react-redux';
 
@@ -18,6 +19,7 @@ import BlockEight from "./BlockEight/BlockEight";
 class Landing extends Component {
     render() {
         const config = this.props.initialConfiguration;
+        //Render the component when the configuration is fetched
         if (config.fetched) {
             const IMAGES = config.data.BASIC_IMAGES;
             const {width, scroll} = this.props;

@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {Icon} from 'react-fa';
 
+//Block Four component
 class BlockFour extends Component {
     render() {
 
+        //Image choice depends on the browser width
         let image = (this.props.width > 992) ? this.props.second_image : this.props.first_image;
 
         return (

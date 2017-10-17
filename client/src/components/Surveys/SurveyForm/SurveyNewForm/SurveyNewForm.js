@@ -8,7 +8,9 @@ import {Link} from 'react-router-dom';
 import validateEmails from '../../../../utils/validateEmails';
 import formFields from '../../assets/FormFieldsInfo';
 
+//Survey Form component
 class SurveyForm extends Component {
+    //Constructor
     constructor(props) {
         super(props);
         this.state = {
@@ -16,6 +18,7 @@ class SurveyForm extends Component {
         }
     }
 
+    //Render input fields
     renderFields() {
         return (
             _.map(formFields, ({label, name}) => {
@@ -53,6 +56,7 @@ class SurveyForm extends Component {
     }
 }
 
+//Validation function
 function validate(values) {
     const errors = {};
 

@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import Typist from 'react-typist';
 
+//Block One component
 class BlockOne extends Component {
 
     render() {
@@ -36,6 +37,7 @@ class BlockOne extends Component {
     }
 }
 
+//Redux store data
 function mapStateToProps({auth}) {
     return {
         auth

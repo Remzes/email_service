@@ -7,12 +7,14 @@ import {fetchSurveys} from '../../actions';
 import SurveyList from './SurveyList/SurveyList';
 import Loader from '../Loader/Loader';
 
+//Dashboard component
 class Dashboard extends Component {
     componentWillMount(){
         this.props.fetchSurveys();
     }
 
     render() {
+        //Render the whole component when surveys are fetched
         if (this.props.surveys.fetched){
             let {fullName} = this.props.auth;
             let surveys = this.props.surveys.data;
@@ -47,8 +49,6 @@ class Dashboard extends Component {
     }
 }
 
-
-//envelop the whole component to prevent updates from being blocked by shouldComponentUpdate
 export default compose(
     withRouter,
     connect(({auth, surveys}) => ({auth, surveys}), {fetchSurveys})

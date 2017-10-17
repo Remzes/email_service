@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {throttle} from 'lodash';
 
+//Decorator for resize browser and scrolling pages
 const Decorator = (OriginalComponent) => {
     return class WrappedComponent extends Component {
         state = {
@@ -22,14 +23,14 @@ const Decorator = (OriginalComponent) => {
             window.removeEventListener("scroll", this.state.throttler, true);
         }
 
-        //Update width variable, and re-render the web app
-        //Hint: arrow function to not use 'bind' this
+        //Update width value
         updateDimensions = () => {
             this.setState({
                 width: window.innerWidth,
             });
         };
 
+        //Update scroll value
         updateScroll = () => {
             this.setState({
                 scroll: document.body.scrollTop || document.documentElement.scrollTop

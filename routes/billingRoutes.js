@@ -6,6 +6,8 @@ const stripe = require('stripe')(
 );
 
 module.exports = app => {
+
+    //Add 5 credits to the user
     app.post('/api/stripe', requireLogin, async (req, res) => {
 
         const charge = await stripe.charges.create({

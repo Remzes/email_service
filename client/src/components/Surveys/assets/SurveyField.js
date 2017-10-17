@@ -1,8 +1,10 @@
 //SurveyField.js - one input component
 import React, {Component} from 'react';
 
+//Survey Field component
 const SurveyField = ({input, label, meta}) => {
     const id = `${input.name}__error`;
+    //Function to fade in error
     const toggleError = (isTouched, isError) => {
         const el = document.getElementById(id);
         if (el !== null) {

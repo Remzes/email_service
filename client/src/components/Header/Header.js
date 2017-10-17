@@ -52,6 +52,7 @@ class Header extends Component {
 
     render() {
 
+        //Activate side navigation
         $(".button-collapse").sideNav();
 
         let nav_class_object = classNames({

@@ -1,3 +1,4 @@
+//Page loader styles
 .page_loader {
   animation: load8 2.2s linear;
   margin: 0 auto;
@@ -8,6 +9,7 @@
   background: url("../Images/giphy.gif") center center no-repeat;
 }
 
+//Animation - MOVE TO ANOTHER FILE
 @keyframes load8 {
   30% {
     opacity: 1;

@@ -3,9 +3,11 @@ import MapContainer from './GoogleMap/MapContainer';
 import {findDOMNode} from 'react-dom';
 import Icon from 'react-fa';
 
+//Block Eight component
 class BlockEight extends Component {
 
     componentDidUpdate(){
+        //Lines of code to change the height of 'Contact Info'
         const height = findDOMNode(this.refs.list).clientHeight;
         this.refs.list.style.top = `-${height / 1.8}px`;
         this.refs.container.style.height = `${height / 1.3}px`;

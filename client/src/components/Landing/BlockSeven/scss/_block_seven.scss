@@ -1,3 +1,4 @@
+//Block seven styles
 .blockseven {
   background-color: lighten($landing-bgc, 5%);
 
@@ -9,20 +10,18 @@
     padding: 100px 0 70px;
   }
 
-  &--inner {
-
-  }
-
+  //Block Seven Container Styles
   &__container {
     @extend .blockfive__container;
 
+    //Block Seven container:header styles
     &__header {
       @extend .blockfive__container__header;
       margin-bottom: 0;
 
+      //Block Seven container:header container styles
       &__container {
         @extend .blockfive__container__header__container;
-
       }
     }
   }

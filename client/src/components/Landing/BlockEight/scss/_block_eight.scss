@@ -1,9 +1,11 @@
+//Block Eight styles
 .blockeight {
 
   @include media_query($desktop-var){
     padding-bottom: 50px;
   }
 
+  //Container of Map styles
   .container-map-element {
     @include media_query($desktop-var){
       height: 600px;
@@ -13,11 +15,10 @@
     }
   }
 
-  &--inner {
-
-  }
-
+  //Block Eight container styles
   &__container {
+
+    //Block Eight contact info styles
     &__contact-info {
       position: relative;
       top: 0;
@@ -28,6 +29,7 @@
         height: 100px;
       }
 
+      //Block Eight list of contact info styles
       &__list {
         width: 80%;
         padding: 15px !important;
@@ -42,6 +44,7 @@
         box-shadow: 0 0 10px 2px #eee;
         flex-wrap: wrap;
 
+        //Block Eight item of list of contact info styles
         &--item {
           &:first-of-type {
             order: 1;

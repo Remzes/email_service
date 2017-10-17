@@ -23,6 +23,7 @@ class Mailer extends helper.Mail {
         });
     }
 
+    //
     addClickTracking() {
         const trackingSettings = new helper.TrackingSettings();
         const clickTracking = new helper.ClickTracking(true, true);
@@ -31,6 +32,7 @@ class Mailer extends helper.Mail {
         this.addTrackingSettings(trackingSettings);
     }
 
+    //Add recipients
     addRecipients() {
         const personalize = new helper.Personalization();
 
@@ -41,6 +43,7 @@ class Mailer extends helper.Mail {
     }
 
 
+    //Send function
     async send() {
         const request = this.sgApi.emptyRequest({
             method: 'POST',

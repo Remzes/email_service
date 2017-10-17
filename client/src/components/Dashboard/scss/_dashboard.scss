@@ -1,10 +1,13 @@
+//Dashboard styles
 .dashboard {
   min-height: calc(100vh - 175px);
+  //Dashboard container styles
   &__container {
     height: 100%;
     display: flex;
     flex-direction: column;
 
+    //Dashboard header styles
     &__header {
       &__button_div {
         margin-bottom: 50px;
@@ -31,12 +34,14 @@
       }
     }
 
+    //Survey List styles
     &__survey-list {
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
 
+      //One surveys styles
       &__survey {
         padding: 15px;
         flex: 1 0 40%;
@@ -52,8 +57,10 @@
         box-shadow: 0 0 5px 1px $sub-color_gray;
         margin: 30px;
 
+        //Survey container styles
         &__container {
 
+          //Survey title styles
           &__title {
             height: 385px;
             background-color: #fff;
@@ -106,6 +113,7 @@
             }
           }
 
+          //Survey body styles
           &__body {
             background-color: lighten($sub-color_gray, 35%);
             padding: 10px !important;
@@ -136,10 +144,7 @@
   }
 }
 
-.red-text {
-
-}
-
+//Animation - MOVE TO ANOTHER FILE!
 .fadeIn {
   opacity: 0;
   animation: 1s fadeIn_el forwards;

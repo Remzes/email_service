@@ -4,6 +4,7 @@ import {reduxForm} from 'redux-form';
 import SurveyForm from '../SurveyForm/SurveyNewForm/SurveyNewForm';
 import SurveyFormReview from '../SurveyForm/SurveyFormReview/SurveyFormReview'
 
+//Survey Container
 class SurveyNew extends Component {
     state = {
         showFormReview: false

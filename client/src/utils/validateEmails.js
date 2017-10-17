@@ -1,5 +1,6 @@
 const re = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
+//Function to validate emails
 export default (emails) => {
     const invalidEmails = emails
         .split(',')

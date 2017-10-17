@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Slider from './Slider';
 
+//Block Seven component
 const BlockSeven = ({width}) => {
     return (
         <section className="blockseven" id="reviews">

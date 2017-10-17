@@ -21,14 +21,19 @@ app.use(
         keys: [keys.cookieKey]
     })
 );
+
+//Usage - to session
 app.use(passport.initialize());
+//Usage - from session
 app.use(passport.session());
 
+//Routes
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
 require('./routes/surveyRoutes')(app);
+//End of routes
 
-// if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
     //Serve main.js and main.css files
     app.use(express.static('client/build'));
 
@@ -37,7 +42,7 @@ require('./routes/surveyRoutes')(app);
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
     });
-// }
+}
 
 const PORT = process.env.PORT || 5001;
 app.listen(PORT);
