@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {throttle} from 'lodash';
 
 const Decorator = (OriginalComponent) => {
-    return class extends Component {
+    return class WrappedComponent extends Component {
         state = {
             width: window.innerWidth,
             scroll: 0,

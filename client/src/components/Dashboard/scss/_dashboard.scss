@@ -10,13 +10,13 @@
         margin-bottom: 50px;
       }
 
-      text-align:center;
+      text-align: center;
       h4 {
-        @include media_query($desktop-var){
+        @include media_query($desktop-var) {
           font-size: 36px;
           margin-bottom: 20px;
         }
-        @include media_query($non-desktop-var){
+        @include media_query($non-desktop-var) {
           font-size: 25px;
           margin-bottom: 10px;
         }
@@ -24,10 +24,10 @@
       h6 {
         margin-bottom: 30px;
         color: $sub-color_gray;
-        @include media_query($desktop-var){
+        @include media_query($desktop-var) {
           font-size: 25px;
         }
-        @include media_query($non-desktop-var){
+        @include media_query($non-desktop-var) {
           font-size: 18px;
         }
       }
@@ -40,29 +40,100 @@
       flex-wrap: wrap;
 
       &__survey {
-        padding: 30px;
+        padding: 15px;
         flex: 1 0 40%;
-        @include media_query($desktop-var){
-          min-width: 400px;
+        @include media_query($desktop-var) {
+          min-width: 600px;
         }
 
-        @include media_query($non-desktop-var){
-          min-width: 200px;
+        @include media_query($non-desktop-var) {
+          min-width: 300px;
         }
         max-width: 700px;
-        border: 1px solid #000;
+        background-color: lighten($sub-color_gray, 40%);
+        box-shadow: 0 0 5px 1px $sub-color_gray;
         margin: 30px;
-
 
         &__container {
 
           &__title {
+            background-color: #fff;
             display: inline-block;
+            font-weight: bold;
             width: 100%;
             text-align: center;
+            @include media_query($desktop-var){
+              padding-bottom: 30px;
+              margin-bottom: 35px;
+              border-bottom: 2px solid lighten($sub-color_black, 70%);
+            }
+
+            @include media_query($non-desktop-var){
+              padding-bottom: 30px;
+              margin-bottom: 25px;
+              border-bottom: 2px solid lighten($sub-color_black, 70%);
+            }
+
+            span {
+              display: inline-block;
+              width: 100%;
+            }
+
+            span:first-of-type {
+              color: $sub-color_red !important;
+              @include media_query($desktop-var) {
+                font-size: 21px;
+              }
+              @include media_query($non-desktop-var) {
+
+                font-size: 16px;
+              }
+            }
+            span:nth-of-type(2) {
+              color: $sub-color_black;
+            }
+          }
+          &__body {
+            p {
+              color: $sub-color_black;
+            }
           }
         }
       }
     }
+  }
+}
+
+.red-text {
+
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: 1s fadeIn_el forwards;
+}
+
+.fadeOut {
+  opacity: 1;
+  animation: 1s fadeOut_el forwards;
+}
+
+@keyframes fadeIn_el {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut_el {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }

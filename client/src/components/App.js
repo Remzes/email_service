@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route, applyRouterMiddleware, withRouter} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 import {connect} from 'react-redux';
 import * as actions from '../actions';
 import "../assets/Styles/App.css";
@@ -11,6 +11,7 @@ import Landing from './Landing/index';
 import Dashboard from './Dashboard/Dashboard';
 import SurveyNew from './Surveys/SurveyNew';
 import Footer from './Footer/Footer';
+import Loader from './Loader/Loader';
 
 class App extends Component {
     constructor(){
@@ -31,7 +32,7 @@ class App extends Component {
     render() {
         const {loading} = this.state;
         if (loading) {
-            return null;
+            return <Loader/>
         }
 
         return (

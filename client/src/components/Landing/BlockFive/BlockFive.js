@@ -12,7 +12,6 @@ class BlockFive extends Component {
     }
 
     render() {
-
         const configuration = this.props.initialConfiguration.data.SLIDER_CONFIGURATION;
         const {width, scroll, config, selectConfig} = this.props;
         return (
