@@ -22,9 +22,8 @@ app.use(
     })
 );
 
-//Usage - to session
+
 app.use(passport.initialize());
-//Usage - from session
 app.use(passport.session());
 
 //Routes
