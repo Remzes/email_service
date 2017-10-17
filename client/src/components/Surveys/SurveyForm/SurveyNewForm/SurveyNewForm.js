@@ -3,10 +3,10 @@ import _ from 'lodash';
 
 import React, {Component} from 'react';
 import {reduxForm, Field, reset} from 'redux-form';
-import SurveyField from './SurveyField';
+import SurveyField from '../assets/SurveyField';
 import {Link} from 'react-router-dom';
-import validateEmails from '../../utils/validateEmails';
-import formFields from './assets/FormFieldsInfo';
+import validateEmails from '../../../utils/validateEmails';
+import formFields from '../assets/FormFieldsInfo';
 
 class SurveyForm extends Component {
     constructor(props){

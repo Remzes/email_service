@@ -1,9 +1,9 @@
 import _ from 'lodash';
 import React from 'react';
 import {connect} from 'react-redux';
-import formFields from './assets/FormFieldsInfo';
+import formFields from '../assets/FormFieldsInfo';
 import {withRouter} from 'react-router-dom';
-import * as actions from '../../actions';
+import * as actions from '../../../actions/index';
 
 const SurveyFormReview = ({onCancel, formValues, submitSurvey, history}) => {
     const reviewFields = _.map(formFields, ({name, label}) => {
