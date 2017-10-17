@@ -1,15 +1,20 @@
 @import "variables";
 @import "layout";
 
+//Dashboard styles file
+@import '../../components/Dashboard/scss/dashboard';
+//Survey Form Combined styles file
 @import "../../components/Surveys/SurveyForm/scss/survey_form_style";
+//Header styles files
 @import '../../components/Header/scss/_header';
+//Landing - combined styles file
 @import '../../components/Landing/scss/_landing';
+//Footer styles file
 @import '../../components/Footer/scss/footer';
-
+//Loader styles file
 @import '../../components/Loader/scss/loader';
 
-@import '../../components/Dashboard/scss/dashboard';
-
+//SOME STYLES TO BE MOVED!!!
 .container {
   width: 100% !important;
   max-width: 1000%;
